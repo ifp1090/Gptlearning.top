@@ -199,8 +199,24 @@ menu:
         - identifier: github
           name: GitHub
           url: https://github.com/ifp1090
+          weight: 1
           params:
               icon: brand-github
+
+        - identifier: bilibili
+          name: Bilibili
+          url: https://space.bilibili.com/24527653
+          weight: 2
+          params:
+              icon: bilibili-line
+
+        - identifier: email
+          name: Email
+          url: mailto:norekcn@gmail.com
+          weight: 3
+          params:
+              icon: email              
+
 
 
 related:
