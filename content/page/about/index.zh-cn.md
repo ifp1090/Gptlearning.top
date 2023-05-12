@@ -7,4 +7,8 @@ menu:
             icon: user
 ---
 
-This is a test page for i18n support.
+
+
+古严，专注于阅读、成长。
+
+在这里，不仅记录点点滴滴的进步，更要以作品说话。
