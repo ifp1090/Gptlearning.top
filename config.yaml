@@ -5,11 +5,6 @@ paginate: 5
 title: Guyan's Gptlearning web
 
 languages:
-    en:
-        languageName: English
-        title: Example Site
-        description: Example description
-        weight: 2
     zh-cn:
         languageName: 中文
         title: Guyan's Gptlearning web
