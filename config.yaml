@@ -37,9 +37,6 @@ params:
     rssFullContent: true
     favicon: /favicon.ico
 
-    busuanzi:
-        enable: true
-
     footer:
         since: 2023
         customText:
@@ -153,7 +150,6 @@ params:
             - type: tag-cloud
               params:
                   limit: 10
-            - type: vistor-views
         page:
             - type: toc
 
