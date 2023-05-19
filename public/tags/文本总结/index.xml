@@ -12,7 +12,7 @@
         <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
         
         <guid>https://Gptlearning.top/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/</guid>
-        <description>&lt;p&gt;ChatGPT非常核心的功能之一就是文本总结。常识认为，对一段文本进行总结或提炼只有相对稳定的一个维度 —— 是否精准。比如扔给ChatGPT一篇文章，让他提炼这篇文章的主要内容，还可能增加一个限定（比如100字以内），那么这时候ChatGPT会回复我们一个100字左右的文本总结。这时候我们可能要去人工验证一下总结的精准度，尝试几遍后发现，总结能力还不错！（ChatGPT 4）&lt;/p&gt;
+        <description>&lt;img src="https://Gptlearning.top/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/ChatGPT20230519.png" alt="Featured image of post ChatGPT文本总结的差异化实现" /&gt;&lt;p&gt;ChatGPT非常核心的功能之一就是文本总结。常识认为，对一段文本进行总结或提炼只有相对稳定的一个维度 —— 是否精准。比如扔给ChatGPT一篇文章，让他提炼这篇文章的主要内容，还可能增加一个限定（比如100字以内），那么这时候ChatGPT会回复我们一个100字左右的文本总结。这时候我们可能要去人工验证一下总结的精准度，尝试几遍后发现，总结能力还不错！（ChatGPT 4）&lt;/p&gt;
 &lt;p&gt;于是这时候就对ChatGPT形成了一个认识：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;ChatGPT的文本总结能力挺好的，以后看一些长篇小说或者科研论文，就可以直接把内容扔给它，让其帮我们总结提炼文本即可，这样就替我们节省了大量阅读原文带来的时间成本。&lt;/p&gt;

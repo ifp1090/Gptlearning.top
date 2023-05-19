@@ -2,7 +2,7 @@
 title: ChatGPT文本总结的差异化实现
 description: 
 date: 2023-05-19
-image: 
+image: ChatGPT20230519.png
 categories:
   - 提问
 tags:
