@@ -1,7 +1,7 @@
 baseurl: https://Gptlearning.top
 languageCode: zh-cn
 theme: hugo-theme-stack
-paginate: 5
+paginate: 10
 title: Guyan's Gptlearning web
 
 languages:
@@ -102,8 +102,8 @@ params:
                 - email
                 - url
             locale:
-                admin: 👻屑博主
-                placeholder: 🎉留下你的脚印.
+                admin: 
+                placeholder: 
 
         twikoo:
             envId:
