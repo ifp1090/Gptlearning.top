@@ -6,7 +6,78 @@
         <description>Recent content on Guyan&#39;s Gptlearning web</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Gptlearning.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 24 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Gptlearning.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何对全书进行整群抽样？</title>
+        <link>https://Gptlearning.top/p/%E5%A6%82%E4%BD%95%E5%AF%B9%E5%85%A8%E4%B9%A6%E8%BF%9B%E8%A1%8C%E6%95%B4%E7%BE%A4%E6%8A%BD%E6%A0%B7/</link>
+        <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://Gptlearning.top/p/%E5%A6%82%E4%BD%95%E5%AF%B9%E5%85%A8%E4%B9%A6%E8%BF%9B%E8%A1%8C%E6%95%B4%E7%BE%A4%E6%8A%BD%E6%A0%B7/</guid>
+        <description>&lt;p&gt;我们在前两篇抽样方法文章中分别提到两个书本抽样方法「简单随机抽样」和「等距抽样」，它们两种抽样方式都是从全书中只选择一些个别章节来判断权重。但很多书的作者在写书时就将章节进行了权重考量，&lt;/p&gt;
+&lt;p&gt;比如一本书的安排是这样的：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;部分&lt;/th&gt;
+&lt;th&gt;章节&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;第一部分&lt;/td&gt;
+&lt;td&gt;1~2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;第二部分&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;第三部分&lt;/td&gt;
+&lt;td&gt;4-10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;第四部分&lt;/td&gt;
+&lt;td&gt;11-12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;如果将上述四部分章节数量由多到少进行排序，会发现第三部分分配的章节最多。在这里我们做一个「章节数量多就是作者想更多介绍进而属于更权重章节的范畴」的假设，那么我们可能要优先阅读第三部分。但如果我们按照之前介绍的两种抽样方式，抽样结果可能会类似这样（随机）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;简单随机抽样：3/7/11&lt;/li&gt;
+&lt;li&gt;等距抽样：1/5/9/13&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这可能忽略了作者对章节进行整体归类的信号暗示，可能不容易抓住全书权重。&lt;/p&gt;
+&lt;p&gt;如何解决？&lt;/p&gt;
+&lt;p&gt;我们可以暂缓一次选择一个章节然后再汇总的抽样方法，而是一开始就选择一个「章群」抽样。&lt;/p&gt;
+&lt;p&gt;整群抽样步骤如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;对全书章节进行整群分类&#34;&gt;对全书章节进行整群分类&lt;/h4&gt;
+&lt;p&gt;最基础的分类方法就是参考作者为全书章节的整体划分，比如《如何达成目标》一共有13章，但作者直接在目录中将其划分为「准备就绪、预备开始、行动起来」三个部分；又比如《人是如何学习的-II》全书一共10章，而在中文序中提到全书分成「文化的复杂影响、学习的类型与过程、知识与推理、学习动机、对学校学习的启示、学习技术、贯穿一生的学习」七大主题；《行为科学研究方法》在译者序中将全书16章分成五大部分。&lt;/p&gt;
+&lt;p&gt;一旦我们通过这些信息获得了全书「章节群」的划分数量，就可以将其视为对整本书的整群抽样个数。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;使用简单随机抽样法抽取群章部分主题等&#34;&gt;使用简单随机抽样法抽取群章（部分/主题等）&lt;/h4&gt;
+&lt;p&gt;与「简单随机抽样」方式差不多，唯一区别在于我们通过简单随机抽样抽出来的是多个章节，而这时候我们只需要抽取其中1个群章即可。需要注意的是&lt;a class=&#34;link&#34; href=&#34;www.trialstats.com&#34; &gt;&lt;strong&gt;试验统计网&lt;/strong&gt;&lt;/a&gt;不支持抽取数量为1的简单随机抽样，所以我们在这里就自己随机制定一个数字即可。比如《人是如何学习的-II》一共有7个主题，我们就在1~7中随机选择一个主题，然后根据该主题在目录中找到对应的章群；《如何达成目标》一书有3个部分，我们就从1~3中随机选择一部分，找到该部分对应的章群，直接开始阅读即可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;相关流程细化如下：
+&lt;img src=&#34;http://pbox.online/202305242304951.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230524230447914&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;由此可以发现，整群抽样相比简单随机抽样与等距抽样，有两个明显的优点：第一，速度相对快捷。第二，对书中内容的理解常常以多个章节的合体进行，并非每次只阅读一个独立章节，这样将全书往全局理解又近了一步 。另一方面，整群抽样也存在着一些缺陷，比如忽略了抽取的章节群与其他章节群之间的整体关联关系。另外，如果在抽取的章节群内的某一章节存在与其他章群的一个或多个章节有特定关联，整群抽样就觉察不出这种相互影响的理解。所以我们在实际操作中往往需要更加灵活的抽样策略或者将不同抽样策略进行叠加以获得更精准的权重。&lt;/p&gt;
+&lt;p&gt;Ref：&lt;/p&gt;
+&lt;p&gt;《聪明的阅读者》&lt;/p&gt;
+&lt;p&gt;20230524&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>如何通过ChatGPT提问来更好了解一本书？</title>
         <link>https://Gptlearning.top/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87chatgpt%E6%8F%90%E9%97%AE%E6%9D%A5%E6%9B%B4%E5%A5%BD%E4%BA%86%E8%A7%A3%E4%B8%80%E6%9C%AC%E4%B9%A6/</link>
         <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
