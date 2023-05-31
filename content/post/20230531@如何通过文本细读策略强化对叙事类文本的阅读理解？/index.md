@@ -3,7 +3,7 @@
 title: 如何通过文本细读策略强化对叙事类文本的阅读理解？
 description: 
 date: 2023-05-31
-image: 
+image: Snipaste_2023-05-31_17-24-33.png
 categories:
 
 - 提问
