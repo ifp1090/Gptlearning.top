@@ -30,7 +30,7 @@ tags:
 
 #### 附：文本细读方法论
 
-![](https:/pbox.online/202305311541348.png)
+![](https://pbox.online/202305311737510.png)
 
 Ref
 
