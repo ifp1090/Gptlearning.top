@@ -30,7 +30,7 @@ tags:
 
 #### 附：文本细读方法论
 
-![Snipaste_2023-05-31_17-08-52](https:/pbox.online/202305311541348.png)
+![](https:/pbox.online/202305311541348.png)
 
 Ref
 
