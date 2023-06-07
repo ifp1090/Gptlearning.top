@@ -6,7 +6,260 @@
         <description>Recent content in 阅读 on Guyan&#39;s Gptlearning web</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 31 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Gptlearning.top/tags/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Gptlearning.top/tags/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何从0到1选择并阅读《社会科学中的场论》？</title>
+        <link>https://Gptlearning.top/p/%E5%A6%82%E4%BD%95%E4%BB%8E0%E5%88%B01%E9%80%89%E6%8B%A9%E5%B9%B6%E9%98%85%E8%AF%BB%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%9C%BA%E8%AE%BA/</link>
+        <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://Gptlearning.top/p/%E5%A6%82%E4%BD%95%E4%BB%8E0%E5%88%B01%E9%80%89%E6%8B%A9%E5%B9%B6%E9%98%85%E8%AF%BB%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%9C%BA%E8%AE%BA/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071359007.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230607135904974&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你好，你是我的阅读助手。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;确认gpt的身份与角色，这是常用的技能。&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在《聪明的阅读者》一书中，作者阳志平老师提供了一份通识千书书单，其中涉及10大主题，每个大主题下有5个子主题，子主题对应这数十本书单，总计上千本。 我现在对 { 如何理解社会-社会交换}中的书单感兴趣，其中一共有36本书。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我们先来看看这段话的最终诉求是「帮忙随机生成一个数字，以便我选择阅读」。 所以在这个提问中提到了社会交换主题的36本书单。 但我个人理解前面这句话「在《聪明的阅读者》一书中，作者阳志平老师提供了一份通识千书书单，其中涉及10大主题，每个大主题下有5个子主题，子主题对应这数十本书单，总计上千本」似乎有点多余。就本问题集而言，提到通识千书、大主题、小主题这些描述，对GPT的回答帮助不大。&lt;/p&gt;
+&lt;p&gt;所以我建议改成这样的问法：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在《聪明的阅读者》一书中，作者阳志平老师提供了一个庞大的主题书单，其中一个小主题是「如何理解社会-社会交换」，它包含了36本书，具体如下… 我觉得这样的前奏更为简要、直接。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071359201.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230607135928178&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;请你帮我随机生成一个数字，这是我将要随机阅读的第一本图书。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个随机生成的数字可以参考阳老师《聪明的阅读者》一书的第五章#抽样阅读中的简单随机抽样。书上提到了一个随机抽样的网站 &lt;a class=&#34;link&#34; href=&#34;http://www.trialstats.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.trialstats.com&lt;/a&gt; 但这个网站并不提供抽样数字为1的抽样，所以也可以换成GPT来随机抽取。&lt;/p&gt;
+&lt;p&gt;当然，因为是随机抽取，所以人工抽也行。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071400676.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230607140013649&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;好的。你是一位顶尖的图书管理员、博物学家。请你根据你能想到最好的分类，对这些书进行分类。请以表格形式呈现。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个问法的特色在于：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;提问者在同一个问题中将GPT的身份进行了更换，由原来的「阅读助手」转换为「图书管理员、博物学家」。&lt;/li&gt;
+&lt;li&gt;36本书的数量远远超出了大脑的工作记忆舒适区间，所以让GPT进行分类，是将复杂的问题简单化，能够让大脑能更好的行动。&lt;/li&gt;
+&lt;li&gt;表格信息呈现信息，能够一目了然。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;但这里还存在一个遗憾，就是提问者没有对GPT给到的分类进行解读，而是直接就调到了下一个问题。 比如这里可以追问GPT：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;你给到的物种分类背后是基于什么原理？&lt;/li&gt;
+&lt;li&gt;「社会理论」与「社会建构与理解」之间的差异是什么？&lt;/li&gt;
+&lt;li&gt;除了这五种分类之外，还有哪些更好的分类思路？&lt;/li&gt;
+&lt;li&gt;五种分类似乎有点多了，能不能压缩到4种？ …… 类如这样的提问，能让GPT更好的审视它进行的分类原则与标准，进而进行优化。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071400199.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230607140051163&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;请再此基础上，根据图书阅读难度，对其排序。请以表格形式呈现。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里提问者采用了一个分步操作的步骤，这一点很棒！&lt;/p&gt;
+&lt;p&gt;为什么要分步操作？为什么不在上一个提问中就直接让GPT在列表的时候附上阅读难度？&lt;/p&gt;
+&lt;p&gt;我觉得是因为提问者需要对GPT的分类方法进行评估，比如它是按照什么类型进行评估的，这种评估是否要进一步修改、替换等。所以对于这36本书而言，一次性拿到合理正确的分类结果相对来说不太容易。因此，让GPT在分类完成之后再进行阅读难度排序是合理的方法。 所以，关联上一个提问的评论，如果让GPT对分类进行进一步分析和优化之后，可以尝试让它对阅读难度进行排序。&lt;/p&gt;
+&lt;p&gt;不过我觉得这里似乎还需要对「阅读难度」有一个相对清晰的划分？&lt;/p&gt;
+&lt;p&gt;比如按人群：大众、专业&lt;/p&gt;
+&lt;p&gt;比如按学级：高中生、大学生、研究生、博士生等。&lt;/p&gt;
+&lt;p&gt;换句话说，让GPT了解阅读难度的分级之后再进行划分可能会更好一点。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071401084.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230607140146047&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因为我对{社会交换}并无太多理解，你认为我应该先读哪一本？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个问题问得好！ 相当于无意间与GPT进行了一次交叉验证。&lt;/p&gt;
+&lt;p&gt;同前所述，这个问题还可以换成比如这样的问法：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因为我目前还处于一个高中生/大学生/……，你认为我应该先读哪一本？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071402011.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230607140225971&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最好的开始阅读的书可能取决于你个人的学术背景、阅读兴趣和学习目标。我建议你在开始阅读之前，研究一下每本书的简介和目录，看看哪本书最吸引你，可能对你更有帮助。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我觉得GPT的这个问答比较专业。&lt;/p&gt;
+&lt;p&gt;这里GPT提醒提问者，要选择一本书，还需要考虑提问者的学术背景、阅读兴趣和学习目标。 但稍显遗憾的是，提问者貌似忽略了这一重要的信息，而直接判断读这本书了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071403174.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230607140300129&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;现在你是一位聪明的阅读者，正在协助我阅读这本书{《社会科学中的场论》[美]库尔特·卢因（Kurt Lewin）}。请你介绍下这本书的要点，及作者背景。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里是在同一个提问中对GPT身份的第三次转换：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;阅读助手 - 图书管理员/博物学家 - 聪明的阅读者&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个提问采用的亮点有：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;确认身份&lt;/li&gt;
+&lt;li&gt;将书名标注英文书名&lt;/li&gt;
+&lt;li&gt;介绍书本主题与作者背景&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071404983.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230607140418951&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你是一位聪明的阅读者，正在协助我阅读这本书。接下来，请你先学习主流认知方式，学会后，请判断这本书采用的认知方式，分别说明判断依据及采用该认知方式的置信度。一本书一般采用2-4种主流认知方式。 请确保你的回答是正确的，如果你不知道，请回答“我不知道这本书”。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这次提问者从书的旁观者视角（从书本之外来思考这本书）慢慢开始转移为阅读者视角。&lt;/p&gt;
+&lt;p&gt;可以看到，这次提问者提出的问题开始变复杂，所以呈现出如下特点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先行投喂gpt专业的知识（比如这里的「认知方式」）&lt;/li&gt;
+&lt;li&gt;让gpt判断的时候给出置信度，相当于让gpt对自己的回答作出评估，类似「元评估」。&lt;/li&gt;
+&lt;li&gt;辅以「请确保你的回答是正确的，如果你不知道….」来进一步防止GPT一本正经的胡说八道。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071405239.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230607140517186&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;{ 主流认知方式，请先学习： 1. 思想实验：在头脑中想象进行实验。像哲学家一样思考。 2. 符号思考：使用抽象的符号进行思考。数学家、统计学家常用该思考方式。 3. 实验科学：通过实验，观察现象、收集数据，验证假设。心理学、生物学、物理学和化学等学科常采用该思考方式。 4. 计算模拟：对真实世界和虚拟世界进行建模等模拟操作。计算机科学家、物理科学家常采用该思考方式。 5. 田野调查：实地调查现场，或者整理、分析各种文献资料。人类学家、社会学家、历史学家和语言学家常用该思考方式。 6. 幽默叙事：指用幽默叙事思考，如笑话、段子和反讽。段子手和相声演员常用该认知方式。 7. 故事叙事：讲述故事。小说家、编剧常用该思考方式。 8. 文采美感：通过雕琢文字来获得美感。是诗人、散文家常用的认知方式。 9. 视觉美感：通过视觉艺术传达美感。画家、书法家、摄影师和设计师常用该思考方式。 }&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这部分投喂给GPT的专业知识，我昨天修正了一下，建议采用这个：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;认知方式&lt;/th&gt;
+&lt;th&gt;含义&lt;/th&gt;
+&lt;th&gt;子分类&lt;/th&gt;
+&lt;th&gt;范例&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;思想实验&lt;/td&gt;
+&lt;td&gt;通过想象去实验&lt;/td&gt;
+&lt;td&gt;悖论/抽象/对话/格言&lt;/td&gt;
+&lt;td&gt;赫拉克利特的悖论；薛定谔的猫实验；梅努赫的火车车厢换轨对话实验；论语；传习录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;符号思考&lt;/td&gt;
+&lt;td&gt;使用抽象符号而非自然语言思考&lt;/td&gt;
+&lt;td&gt;定义/求解/维度/变形&lt;/td&gt;
+&lt;td&gt;哥德巴赫猜想；爱因斯坦狭义相对论；弗洛伊德潜意识模型；&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;实验科学&lt;/td&gt;
+&lt;td&gt;控制实验条件、操纵变量进行实验&lt;/td&gt;
+&lt;td&gt;以人/动物/自然元素等为实验对象&lt;/td&gt;
+&lt;td&gt;施坦福监狱实验；斯金纳老鼠米箱实验；斯坦利-米勒实验&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;田野调查&lt;/td&gt;
+&lt;td&gt;实地参与现场的调查研究工作&lt;/td&gt;
+&lt;td&gt;强调实地探索、强调鲜活证据&lt;/td&gt;
+&lt;td&gt;印度摩亨佐-达罗文明遗址研究；罗斯塔夫人的乡村调查&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;幽默叙事&lt;/td&gt;
+&lt;td&gt;创造幽默来思考&lt;/td&gt;
+&lt;td&gt;偏向温饱、安全、性爱、人际、亲情等主题&lt;/td&gt;
+&lt;td&gt;马克吐温《汤姆·索亚历险记》；王尔德的《温夫人的扇子》；约瑟夫·海勒的《第22条军规》&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;故事叙事&lt;/td&gt;
+&lt;td&gt;通过故事叙事文本的创作来思考&lt;/td&gt;
+&lt;td&gt;强调冲突、情节、营造意向，传递感情&lt;/td&gt;
+&lt;td&gt;莎士比亚的《哈姆雷特》；查尔斯·狄更斯的《双城记》；乔治·奥威尔的《动物庄园》&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;视觉美感&lt;/td&gt;
+&lt;td&gt;通过突出视觉美感来思考&lt;/td&gt;
+&lt;td&gt;强调整体美感、侧重线条、色彩、构图等&lt;/td&gt;
+&lt;td&gt;梵高的《向日葵》；米开朗琪罗的《创世纪》；莫奈的《睡莲》&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Ref：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://42share.io/gpt/7932225814&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://42share.io/gpt/7932225814&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://42share.io/gpt/4313664867&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://42share.io/gpt/4313664867&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F7932225814&amp;amp;group=xoJEwea7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F7932225814&amp;group=xoJEwea7&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;20230607&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>如何通过文本细读策略强化对叙事类文本的阅读理解？</title>
         <link>https://Gptlearning.top/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%96%87%E6%9C%AC%E7%BB%86%E8%AF%BB%E7%AD%96%E7%95%A5%E5%BC%BA%E5%8C%96%E5%AF%B9%E5%8F%99%E4%BA%8B%E7%B1%BB%E6%96%87%E6%9C%AC%E7%9A%84%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3/</link>
         <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
