@@ -22,6 +22,11 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这是一个很好的借住人工智能来简化抽象知识理解的思路。&lt;/p&gt;
+&lt;p&gt;这次提问的优点：&lt;/p&gt;
+&lt;p&gt;提问者并不是直接问「信息瀑布」是什么意思。而是首先提到前提「我在读一本社会心理学方面的书」，这就首先帮助ChatGPT限定了回答问题的边界。这个做法非常好。&lt;/p&gt;
+&lt;p&gt;如果我们自己在尝试问ChatGPT一些术语的时候，首先我们自己要明白，这个术语源自哪个学科，如果不知道学科，就要缩小规模，寻找它所从属的领域；如果还是无法确认，就要确认它所从属的问题。无论如何都要主动向ChatGPT限定问题的边界。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191302534.png&#34;
 	
 	
@@ -32,6 +37,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这就是典型的「术语卡」撰写权重啊！&lt;/p&gt;
+&lt;p&gt;对于术语卡，我们需要追溯知识源头，找到最早提出这个概念的人、提出的时间、理解、延伸和知识源头。这里提问者强调了术语卡的关键变量，意味着他对术语卡的运用已经内隐了。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191302216.png&#34;
 	
 	
@@ -42,6 +50,13 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里提问者运用了「元反空」的「反」，突出了这个概念的对立面意见。&lt;/p&gt;
+&lt;p&gt;这对于了解一个概念的边界非常有用。 代表性观点是一个简化理解的好问题，如果要进一步探索，可以尝试让ChatGPT列出相关的信息源头链接。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【建议1】&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个「反对意见」我觉得问的太早了点，应该首先对这个概念本身有一定清晰的理解之后，再去了解它的对立面。从这个提问本身来看，提问者提出了这个「反对意见」之后，又回到了概念本身的正题，来理解与他相关的术语，而后又跳到与这个反对意见类似的提问「局限性」上。感觉问题问的有点过于跳跃了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【建议2】&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通过这个信息，还能进一步探索出对这个概念反对意见在学术界最具影响力的反对者，这就进一步回归到了「人」的维度。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191302248.png&#34;
 	
 	
@@ -52,6 +67,10 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这也是一个非常好的问题！&lt;/p&gt;
+&lt;p&gt;我们了解一个概念，并不是把它鼓励的进行拆解、分析，而是要把它与类似的术语进行关联，这样能够更好的说明该术语的典型特征。 从大脑记忆的层面，在术语和术语之间建立相关的连接，能够有效帮助大脑记忆。&lt;/p&gt;
+&lt;p&gt;「社会现象」更是一个将抽象术语与大众所关注的现象进行关联，这样进一步简化了抽象术语的理解。这是一个好问题！&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191303651.png&#34;
 	
 	
@@ -62,6 +81,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题应该是前述「概念的反对意见」中提及的「局限性」展开的。&lt;/p&gt;
+&lt;p&gt;但这个问题与「反对意见」类似，甚至有一些重复了。所以我觉得可以将这两个问题合并。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191303596.png&#34;
 	
 	
@@ -72,6 +94,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题对于阅读英文论文非常有帮助！&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191303459.png&#34;
 	
 	
@@ -82,6 +106,18 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题与下一个问题可以联合起来看。&lt;/p&gt;
+&lt;p&gt;首先，限定角色定位 —— 「顶级科普作家」， 然后，限定写作风格 —— 中国作家连岳 再次，限定文章要求 —— 1000字左右，科普文章 最后，限定阅读对象 —— 高一学生。&lt;/p&gt;
+&lt;p&gt;下一篇文章，前三个要求类似，但阅读对象有了转变 —— 大学生。&lt;/p&gt;
+&lt;p&gt;将两篇文章用不同的阅读对象让ChatGPT输出，我觉得这里提供了一个非常好的对比机会，&lt;/p&gt;
+&lt;p&gt;提问者可以：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先尝试将这两篇文章进行一次对比，明白对比结果。&lt;/li&gt;
+&lt;li&gt;再让ChatGPT自己对这两篇文章进行对比。然后找出自己和ChatGPT对比的差异，并思考这些差异产生的原因。&lt;/li&gt;
+&lt;li&gt;参考前两点的思路，对文章进行改进优化。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;【&lt;strong&gt;不足&lt;/strong&gt;】&lt;/p&gt;
+&lt;p&gt;我觉得这里对于ChatGPT是否了解连岳的写作风格存疑。 所以可能需要事先投喂一些相关文章，让ChatGPT进行分析、模拟来尝试进一步熟悉连岳的写作风格，然后再让他输出文章，效果可能会更好一些。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191303945.png&#34;
 	
 	
@@ -92,6 +128,11 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里的「有趣」建议更加明确一些：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;到底是哪些地方有趣？&lt;/li&gt;
+&lt;li&gt;能否提供一些案例或者建议 这样可能会更有效果。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;让ChatGPT解释术语卡的对话优化模板：&lt;/p&gt;
 &lt;h4 id=&#34;1&#34;&gt;1&lt;/h4&gt;
@@ -141,6 +182,8 @@
 &lt;p&gt;Ref：&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://42share.io/gpt/8727369749&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://42share.io/gpt/8727369749&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F8727369749&amp;amp;group=xoJEwea7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F8727369749&amp;group=xoJEwea7&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         

@@ -273,6 +273,44 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;在正式拆解之前，我们先将整个案例的问句汇总一下，从全局角度来分析一下提问者的提问：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;你扮演研究《Don Quixote》多年的专家。请用不少于1000字详细讲讲《Don Quixot》（堂吉诃德）的背景，作者的背景。并说说背景和书籍的主题和象征有什么关联?&lt;/li&gt;
+&lt;li&gt;用不少于1000字详细讲讲《Don Quixote》里的主要人物和时间线，主要人物的性格特征、背景是什么？代表着什么？每个主要角色举3个体现他们特征的书中例子。&lt;/li&gt;
+&lt;li&gt;《Don Quixote》里有什么经典的事件与冲突，叙事结构是怎样？&lt;/li&gt;
+&lt;li&gt;历史上的顶级作家对《堂吉诃德》作出怎样的评价，举正面的评价和负面的评价各3个。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;上述4个问题，看起来彼此独立，但实际上是源于阳志平老师《聪明的阅读者》一书中对叙事类文本的文本细读策略应用。&lt;/p&gt;
+&lt;p&gt;我整理了一下该书对文本细读的策略表：
+&lt;img src=&#34;https://pbox.online/202305311541348.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;img&#34;
+	
+	
+&gt;
+通过这张表我们发现，对于叙事类文本，分别从字/词 → 句/段 → 篇/章维度来结构 → 评论的话，分别是人物时间线、事件发展与叙事结构和赏析。&lt;/p&gt;
+&lt;p&gt;所以再回过头来看提问者的这四个问题，就能明白他为什么会这么提问了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;高级提问技巧&#34;&gt;【高级提问技巧】&lt;/h4&gt;
+&lt;p&gt;第一个问题，提问者首先没有直接采用《聪明》一书从字词角度解析的思路，而是已整本书的背景出发来提问，这一点做的非常好，除了更好理解《唐吉坷德》这本书之外，其实还有一个好处在于提前让ChatGPT热身，来激活它的思考线。热身关键词：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;作品背景&lt;/li&gt;
+&lt;li&gt;作者背景&lt;/li&gt;
+&lt;li&gt;作品与作者的关联&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;进阶提问技巧&#34;&gt;【进阶提问技巧】&lt;/h4&gt;
+&lt;p&gt;这里提问者还使用了一个小技巧，即将书名首先列为英文而不是一上来就是中文，这个策略方便ChatGPT去搜索它的数据库时能够交叉验证。&lt;/p&gt;
+&lt;h4 id=&#34;基础提问技巧&#34;&gt;【基础提问技巧】&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;身份扮演+用年限强调资历：你扮演研究《Don Quixote》多年的专家。&lt;/li&gt;
+&lt;li&gt;限定文本数量：请用不少于1000字详细讲讲&amp;hellip;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;具体要求（《Don Quixot》（堂吉诃德）的背景&amp;hellip;&amp;hellip;）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://pbox.online/202305311707231.png&#34;
 	
 	
@@ -283,6 +321,38 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;从第二个问题开始，提问者就正式就《聪明的阅读者》关于叙事型文本的策略正式展开提问。&lt;/p&gt;
+&lt;p&gt;叙事型文本从字/词级别，主要关注：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;书中出现的主要人物；&lt;/li&gt;
+&lt;li&gt;这些人物的心理画像；&lt;/li&gt;
+&lt;li&gt;以及这些人物出现的时间线是怎样的。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我们看到提问者将这三个点在提问中都有所体现。&lt;/p&gt;
+&lt;p&gt;不一样的地方在于，提问者将「心理画像」细化成了「性格特征」，并加入了「背景」与「代表」这两点要素。
+能让ChatGPT更好的展开说明。&lt;/p&gt;
+&lt;p&gt;此外，提问者还针对人物与代表特征进行了更深入的提问：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每个主要角色举3个体现他们特征的书中例子。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这让ChatGPT的解析能更好帮助提问者理解，而非相对抽象画的解释文风。&lt;/p&gt;
+&lt;h4 id=&#34;提问策略&#34;&gt;提问策略&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;限定文本（不少于1000字）&lt;/li&gt;
+&lt;li&gt;人物、时间线&lt;/li&gt;
+&lt;li&gt;性格特征（心理画像）、背景、代表&lt;/li&gt;
+&lt;li&gt;主要角色举例（3个）证明特征&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;不过这里我个人觉得在这里再一次强调「性格特征」与「背景」的关联，是不是会引导ChatGPT的回答更加偏好提问者的喜好？&lt;/p&gt;
+&lt;p&gt;因为我们看到在第一个提问中，提问者就提到了「书的背景」、「作者的背景」以及两则之间的关联。而在这里又一次强调了「性格特征」与「背景」之间的关联。&lt;/p&gt;
+&lt;p&gt;换句话说，在提问者的认知里面，这两个问题中的关键词必须有某种关联关系，这是提问者提问的隐含意识。&lt;/p&gt;
+&lt;p&gt;如此表示带来的两个关联后果就是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ChatGPT会主动寻找并搭建两者之间的关联关系。&lt;/li&gt;
+&lt;li&gt;ChatGPT的回答会印证提问者在提问之前已经有的某种思路或想法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;进一步，ChatGPT的回答会带来的另一个不已察觉的后果是，可能不知不觉淡化了关联物之外的可能性。比如性格和背景真的有十足的关联关系吗？&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://pbox.online/202305311707234.png&#34;
 	
 	
@@ -293,6 +363,13 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里提问者提到了叙事类文本「篇章」级别的探析，还特别提到了「事件与冲突」这个关键点，这是非常好的问法！&lt;/p&gt;
+&lt;p&gt;而且ChatGPT的回答也正是围绕这两个点展开的。&lt;/p&gt;
+&lt;p&gt;但我觉得在这里，ChatGPT对「叙事结构」的理解深度还不太够。&lt;/p&gt;
+&lt;p&gt;简单计算一下，ChatGPT对「事件与冲突」的回答字数为324字，但「叙事结构」才229字，只有前者的70%。&lt;/p&gt;
+&lt;p&gt;此外，ChatGPT对叙事结构的回答，只围绕故事的独立性与关联性、叙事角度两个维度来回答。缺少了叙事主题、叙事风格、叙事符号等内容。&lt;/p&gt;
+&lt;p&gt;所以这里如果想让ChatGPT的回答更为丰满，需要为它投喂更多关于叙事结构的信息。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://pbox.online/202305311709348.png&#34;
 	
 	
@@ -303,6 +380,16 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题对名家对《唐吉坷德》的正反赏析案例。&lt;/p&gt;
+&lt;p&gt;提问者特别提到了「正 + 反」双向赏析，能够得到更加全局的认知，这是非常好的策略！但这里的名家赏析&lt;strong&gt;可能基于ChatGPT的幻觉。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我做了一个有趣的测试：&lt;/p&gt;
+&lt;p&gt;将这个答案中列出的正反评价内容和对应作家交换一下（相当于混淆了数据），然后抽出几个让ChatGPT来测试这些评论方向与评论来源的正确性。&lt;/p&gt;
+&lt;p&gt;结果ChatGPT表示：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我找不到这些作家对《堂吉诃德》的特定评价&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;进而而全部判断为错误！&lt;/p&gt;
+&lt;p&gt;所以这个回答数据可能需要进一步验证，比如让ChatGPT提交具体的信息来源、人工校验等。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;基于上述历史顶级作家对唐吉坷德正反评价的原始回答混编反向测试结果&#34;&gt;基于上述「历史顶级作家对《唐吉坷德》正反评价」的原始回答混编反向测试结果&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://pbox.online/202305311710805.png&#34;
@@ -329,6 +416,8 @@
     &gt;https://42share.io/gpt/4836029750&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://42share.io/gpt/6366485173&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://42share.io/gpt/6366485173&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F4836029750&amp;amp;group=xoJEwea7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F4836029750&amp;group=xoJEwea7&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;《聪明的阅读者》&lt;/p&gt;
 </description>
         </item>
@@ -338,16 +427,19 @@
         <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
         
         <guid>https://Gptlearning.top/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87chatgpt%E6%8F%90%E9%97%AE%E6%9D%A5%E6%9B%B4%E5%A5%BD%E4%BA%86%E8%A7%A3%E4%B8%80%E6%9C%AC%E4%B9%A6/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506902.png&#34;
+        <description>&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071757866.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-22_15-04-20&#34;
+		alt=&#34;image-20230607175748832&#34;
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里有一个关键的技巧就是，对于书名，优先采用英文会跟容易被ChatGPT读取。&lt;/p&gt;
+&lt;p&gt;不过这里还有一个额外建议就是，将这本书的作者（含英文名）同步列出，这样就更能让ChatGPT对书进行定位。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506103.png&#34;
 	
 	
@@ -358,6 +450,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;使用ChatGPT的必要技巧。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506028.png&#34;
 	
 	
@@ -368,6 +462,10 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问法很巧妙！&lt;/p&gt;
+&lt;p&gt;在前面提到了「你确定吗」提醒ChatGPT追溯自己的答案，规避一本正经胡说的可能性。&lt;/p&gt;
+&lt;p&gt;这里非常自然地再次给到ChatGPT一条关键信息「作者是……」相当于再次让ChatGPT验证，但又不是专门的一条验证信息，节省了ChatGPT的使用限制。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221518081.png&#34;
 	
 	
@@ -378,6 +476,15 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这一部分问题相当于从&lt;strong&gt;边界与概念网络&lt;/strong&gt;的角度来提问。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;他讨论了什么事情 → 问题点确认&lt;/li&gt;
+&lt;li&gt;这些事情如何确定 → 问题产生的缘由&lt;/li&gt;
+&lt;li&gt;它有哪些相关概念&amp;amp;子概念 → 问题网络&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但我觉得这个提问与后面的「这本书 提出了什么问题？」问题有点重复。&lt;/p&gt;
+&lt;p&gt;对这个提问的具体修改参见下述这个问题的修改。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506001.png&#34;
 	
 	
@@ -388,6 +495,18 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题如果从全局问题角度来看是合适的。&lt;/p&gt;
+&lt;p&gt;换句话说，如果从「泛概念」的角度来理解，是一个较好的问题。，但如果从问题深度来理解，会比较粗狂。&lt;/p&gt;
+&lt;p&gt;如果是深层提问，可以尝试将支持、反对、论证三个维度分开提问。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;支持：支持论点、支持证据。&lt;/li&gt;
+&lt;li&gt;反对1：作者反对、作者的反对证据（书内）&lt;/li&gt;
+&lt;li&gt;反对2：对作者反对的反对，对作者反对证据的反对证据（书外）&lt;/li&gt;
+&lt;li&gt;论证结构：可以参考之前&lt;a class=&#34;link&#34; href=&#34;https://gptlearning.top/p/%e5%a6%82%e4%bd%95%e7%bb%93%e5%90%88chatgpt%e5%92%8c%e8%81%aa%e6%98%8e%e7%9a%84%e9%98%85%e8%af%bb%e8%80%85%e8%a7%a3%e6%9e%90%e6%94%b9%e5%8f%98%e8%bf%99%e6%9c%ac%e4%b9%a6/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;如何结合ChatGPT和《聪明的阅读者》解析《改变》这本书？&lt;/a&gt; 文章还引入「认知方式」。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;另外，这个问题后面的问题是「这本书提出了什么问题」，我个人觉得本问题应该放到下面这个问题之后。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221519212.png&#34;
 	
 	
@@ -398,6 +517,15 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;一本书基本目标的概述。&lt;/p&gt;
+&lt;p&gt;但我觉得这个问题与前述「它讨论了什么事情？这些事情是如如何确认的？」有点重复了。&lt;/p&gt;
+&lt;p&gt;修改提问的建议就是将前面那个问题拆解为：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;这本书围绕哪些具体的问题展开？&lt;/li&gt;
+&lt;li&gt;这本书的主要观点是如何确定的？&lt;/li&gt;
+&lt;li&gt;与这本书主要观点的相关概念有哪些？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506274.png&#34;
 	
 	
@@ -408,6 +536,11 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题相当于让ChatGPT去收集与书中作者观点相左的信息，这是一个好问题！&lt;/p&gt;
+&lt;p&gt;紧接着，提问者提到「是否有其他作者更好的解释了该问题」的问题，相当于问ChatGPT，关于这个问题，是否有更新的对原理论进行延续升级的理论出现。这个思路很棒！&lt;/p&gt;
+&lt;p&gt;但我觉得还有一种可能性也可以紧跟追问，就是前面我提到的对这里理论不是延续而是推翻的思路，即这个理论是否存在更有说服力的反对理论？&lt;/p&gt;
+&lt;p&gt;一旦将理论进行「延续+反对」的组合，就能形成更有全局性的理解。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506186.png&#34;
 	
 	
@@ -418,6 +551,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;核心思路：考虑例外。&lt;/p&gt;
+&lt;p&gt;不过这个部分，其实是前面所述「反对观点」的书外解释。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;综上，该提问所拥有的提问模板整理修正如下：&lt;/p&gt;
 &lt;h4 id=&#34;1&#34;&gt;1&lt;/h4&gt;
 &lt;blockquote&gt;

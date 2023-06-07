@@ -273,6 +273,44 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;在正式拆解之前，我们先将整个案例的问句汇总一下，从全局角度来分析一下提问者的提问：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;你扮演研究《Don Quixote》多年的专家。请用不少于1000字详细讲讲《Don Quixot》（堂吉诃德）的背景，作者的背景。并说说背景和书籍的主题和象征有什么关联?&lt;/li&gt;
+&lt;li&gt;用不少于1000字详细讲讲《Don Quixote》里的主要人物和时间线，主要人物的性格特征、背景是什么？代表着什么？每个主要角色举3个体现他们特征的书中例子。&lt;/li&gt;
+&lt;li&gt;《Don Quixote》里有什么经典的事件与冲突，叙事结构是怎样？&lt;/li&gt;
+&lt;li&gt;历史上的顶级作家对《堂吉诃德》作出怎样的评价，举正面的评价和负面的评价各3个。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;上述4个问题，看起来彼此独立，但实际上是源于阳志平老师《聪明的阅读者》一书中对叙事类文本的文本细读策略应用。&lt;/p&gt;
+&lt;p&gt;我整理了一下该书对文本细读的策略表：
+&lt;img src=&#34;https://pbox.online/202305311541348.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;img&#34;
+	
+	
+&gt;
+通过这张表我们发现，对于叙事类文本，分别从字/词 → 句/段 → 篇/章维度来结构 → 评论的话，分别是人物时间线、事件发展与叙事结构和赏析。&lt;/p&gt;
+&lt;p&gt;所以再回过头来看提问者的这四个问题，就能明白他为什么会这么提问了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;高级提问技巧&#34;&gt;【高级提问技巧】&lt;/h4&gt;
+&lt;p&gt;第一个问题，提问者首先没有直接采用《聪明》一书从字词角度解析的思路，而是已整本书的背景出发来提问，这一点做的非常好，除了更好理解《唐吉坷德》这本书之外，其实还有一个好处在于提前让ChatGPT热身，来激活它的思考线。热身关键词：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;作品背景&lt;/li&gt;
+&lt;li&gt;作者背景&lt;/li&gt;
+&lt;li&gt;作品与作者的关联&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;进阶提问技巧&#34;&gt;【进阶提问技巧】&lt;/h4&gt;
+&lt;p&gt;这里提问者还使用了一个小技巧，即将书名首先列为英文而不是一上来就是中文，这个策略方便ChatGPT去搜索它的数据库时能够交叉验证。&lt;/p&gt;
+&lt;h4 id=&#34;基础提问技巧&#34;&gt;【基础提问技巧】&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;身份扮演+用年限强调资历：你扮演研究《Don Quixote》多年的专家。&lt;/li&gt;
+&lt;li&gt;限定文本数量：请用不少于1000字详细讲讲&amp;hellip;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;具体要求（《Don Quixot》（堂吉诃德）的背景&amp;hellip;&amp;hellip;）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://pbox.online/202305311707231.png&#34;
 	
 	
@@ -283,6 +321,38 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;从第二个问题开始，提问者就正式就《聪明的阅读者》关于叙事型文本的策略正式展开提问。&lt;/p&gt;
+&lt;p&gt;叙事型文本从字/词级别，主要关注：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;书中出现的主要人物；&lt;/li&gt;
+&lt;li&gt;这些人物的心理画像；&lt;/li&gt;
+&lt;li&gt;以及这些人物出现的时间线是怎样的。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我们看到提问者将这三个点在提问中都有所体现。&lt;/p&gt;
+&lt;p&gt;不一样的地方在于，提问者将「心理画像」细化成了「性格特征」，并加入了「背景」与「代表」这两点要素。
+能让ChatGPT更好的展开说明。&lt;/p&gt;
+&lt;p&gt;此外，提问者还针对人物与代表特征进行了更深入的提问：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每个主要角色举3个体现他们特征的书中例子。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这让ChatGPT的解析能更好帮助提问者理解，而非相对抽象画的解释文风。&lt;/p&gt;
+&lt;h4 id=&#34;提问策略&#34;&gt;提问策略&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;限定文本（不少于1000字）&lt;/li&gt;
+&lt;li&gt;人物、时间线&lt;/li&gt;
+&lt;li&gt;性格特征（心理画像）、背景、代表&lt;/li&gt;
+&lt;li&gt;主要角色举例（3个）证明特征&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;不过这里我个人觉得在这里再一次强调「性格特征」与「背景」的关联，是不是会引导ChatGPT的回答更加偏好提问者的喜好？&lt;/p&gt;
+&lt;p&gt;因为我们看到在第一个提问中，提问者就提到了「书的背景」、「作者的背景」以及两则之间的关联。而在这里又一次强调了「性格特征」与「背景」之间的关联。&lt;/p&gt;
+&lt;p&gt;换句话说，在提问者的认知里面，这两个问题中的关键词必须有某种关联关系，这是提问者提问的隐含意识。&lt;/p&gt;
+&lt;p&gt;如此表示带来的两个关联后果就是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ChatGPT会主动寻找并搭建两者之间的关联关系。&lt;/li&gt;
+&lt;li&gt;ChatGPT的回答会印证提问者在提问之前已经有的某种思路或想法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;进一步，ChatGPT的回答会带来的另一个不已察觉的后果是，可能不知不觉淡化了关联物之外的可能性。比如性格和背景真的有十足的关联关系吗？&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://pbox.online/202305311707234.png&#34;
 	
 	
@@ -293,6 +363,13 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里提问者提到了叙事类文本「篇章」级别的探析，还特别提到了「事件与冲突」这个关键点，这是非常好的问法！&lt;/p&gt;
+&lt;p&gt;而且ChatGPT的回答也正是围绕这两个点展开的。&lt;/p&gt;
+&lt;p&gt;但我觉得在这里，ChatGPT对「叙事结构」的理解深度还不太够。&lt;/p&gt;
+&lt;p&gt;简单计算一下，ChatGPT对「事件与冲突」的回答字数为324字，但「叙事结构」才229字，只有前者的70%。&lt;/p&gt;
+&lt;p&gt;此外，ChatGPT对叙事结构的回答，只围绕故事的独立性与关联性、叙事角度两个维度来回答。缺少了叙事主题、叙事风格、叙事符号等内容。&lt;/p&gt;
+&lt;p&gt;所以这里如果想让ChatGPT的回答更为丰满，需要为它投喂更多关于叙事结构的信息。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://pbox.online/202305311709348.png&#34;
 	
 	
@@ -303,6 +380,16 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题对名家对《唐吉坷德》的正反赏析案例。&lt;/p&gt;
+&lt;p&gt;提问者特别提到了「正 + 反」双向赏析，能够得到更加全局的认知，这是非常好的策略！但这里的名家赏析&lt;strong&gt;可能基于ChatGPT的幻觉。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我做了一个有趣的测试：&lt;/p&gt;
+&lt;p&gt;将这个答案中列出的正反评价内容和对应作家交换一下（相当于混淆了数据），然后抽出几个让ChatGPT来测试这些评论方向与评论来源的正确性。&lt;/p&gt;
+&lt;p&gt;结果ChatGPT表示：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我找不到这些作家对《堂吉诃德》的特定评价&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;进而而全部判断为错误！&lt;/p&gt;
+&lt;p&gt;所以这个回答数据可能需要进一步验证，比如让ChatGPT提交具体的信息来源、人工校验等。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;基于上述历史顶级作家对唐吉坷德正反评价的原始回答混编反向测试结果&#34;&gt;基于上述「历史顶级作家对《唐吉坷德》正反评价」的原始回答混编反向测试结果&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://pbox.online/202305311710805.png&#34;
@@ -329,6 +416,8 @@
     &gt;https://42share.io/gpt/4836029750&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://42share.io/gpt/6366485173&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://42share.io/gpt/6366485173&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F4836029750&amp;amp;group=xoJEwea7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F4836029750&amp;group=xoJEwea7&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;《聪明的阅读者》&lt;/p&gt;
 </description>
         </item>
@@ -338,16 +427,19 @@
         <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
         
         <guid>https://Gptlearning.top/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87chatgpt%E6%8F%90%E9%97%AE%E6%9D%A5%E6%9B%B4%E5%A5%BD%E4%BA%86%E8%A7%A3%E4%B8%80%E6%9C%AC%E4%B9%A6/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506902.png&#34;
+        <description>&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071757866.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-22_15-04-20&#34;
+		alt=&#34;image-20230607175748832&#34;
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里有一个关键的技巧就是，对于书名，优先采用英文会跟容易被ChatGPT读取。&lt;/p&gt;
+&lt;p&gt;不过这里还有一个额外建议就是，将这本书的作者（含英文名）同步列出，这样就更能让ChatGPT对书进行定位。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506103.png&#34;
 	
 	
@@ -358,6 +450,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;使用ChatGPT的必要技巧。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506028.png&#34;
 	
 	
@@ -368,6 +462,10 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问法很巧妙！&lt;/p&gt;
+&lt;p&gt;在前面提到了「你确定吗」提醒ChatGPT追溯自己的答案，规避一本正经胡说的可能性。&lt;/p&gt;
+&lt;p&gt;这里非常自然地再次给到ChatGPT一条关键信息「作者是……」相当于再次让ChatGPT验证，但又不是专门的一条验证信息，节省了ChatGPT的使用限制。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221518081.png&#34;
 	
 	
@@ -378,6 +476,15 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这一部分问题相当于从&lt;strong&gt;边界与概念网络&lt;/strong&gt;的角度来提问。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;他讨论了什么事情 → 问题点确认&lt;/li&gt;
+&lt;li&gt;这些事情如何确定 → 问题产生的缘由&lt;/li&gt;
+&lt;li&gt;它有哪些相关概念&amp;amp;子概念 → 问题网络&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但我觉得这个提问与后面的「这本书 提出了什么问题？」问题有点重复。&lt;/p&gt;
+&lt;p&gt;对这个提问的具体修改参见下述这个问题的修改。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506001.png&#34;
 	
 	
@@ -388,6 +495,18 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题如果从全局问题角度来看是合适的。&lt;/p&gt;
+&lt;p&gt;换句话说，如果从「泛概念」的角度来理解，是一个较好的问题。，但如果从问题深度来理解，会比较粗狂。&lt;/p&gt;
+&lt;p&gt;如果是深层提问，可以尝试将支持、反对、论证三个维度分开提问。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;支持：支持论点、支持证据。&lt;/li&gt;
+&lt;li&gt;反对1：作者反对、作者的反对证据（书内）&lt;/li&gt;
+&lt;li&gt;反对2：对作者反对的反对，对作者反对证据的反对证据（书外）&lt;/li&gt;
+&lt;li&gt;论证结构：可以参考之前&lt;a class=&#34;link&#34; href=&#34;https://gptlearning.top/p/%e5%a6%82%e4%bd%95%e7%bb%93%e5%90%88chatgpt%e5%92%8c%e8%81%aa%e6%98%8e%e7%9a%84%e9%98%85%e8%af%bb%e8%80%85%e8%a7%a3%e6%9e%90%e6%94%b9%e5%8f%98%e8%bf%99%e6%9c%ac%e4%b9%a6/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;如何结合ChatGPT和《聪明的阅读者》解析《改变》这本书？&lt;/a&gt; 文章还引入「认知方式」。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;另外，这个问题后面的问题是「这本书提出了什么问题」，我个人觉得本问题应该放到下面这个问题之后。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221519212.png&#34;
 	
 	
@@ -398,6 +517,15 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;一本书基本目标的概述。&lt;/p&gt;
+&lt;p&gt;但我觉得这个问题与前述「它讨论了什么事情？这些事情是如如何确认的？」有点重复了。&lt;/p&gt;
+&lt;p&gt;修改提问的建议就是将前面那个问题拆解为：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;这本书围绕哪些具体的问题展开？&lt;/li&gt;
+&lt;li&gt;这本书的主要观点是如何确定的？&lt;/li&gt;
+&lt;li&gt;与这本书主要观点的相关概念有哪些？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506274.png&#34;
 	
 	
@@ -408,6 +536,11 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题相当于让ChatGPT去收集与书中作者观点相左的信息，这是一个好问题！&lt;/p&gt;
+&lt;p&gt;紧接着，提问者提到「是否有其他作者更好的解释了该问题」的问题，相当于问ChatGPT，关于这个问题，是否有更新的对原理论进行延续升级的理论出现。这个思路很棒！&lt;/p&gt;
+&lt;p&gt;但我觉得还有一种可能性也可以紧跟追问，就是前面我提到的对这里理论不是延续而是推翻的思路，即这个理论是否存在更有说服力的反对理论？&lt;/p&gt;
+&lt;p&gt;一旦将理论进行「延续+反对」的组合，就能形成更有全局性的理解。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305221506186.png&#34;
 	
 	
@@ -418,6 +551,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;核心思路：考虑例外。&lt;/p&gt;
+&lt;p&gt;不过这个部分，其实是前面所述「反对观点」的书外解释。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;综上，该提问所拥有的提问模板整理修正如下：&lt;/p&gt;
 &lt;h4 id=&#34;1&#34;&gt;1&lt;/h4&gt;
 &lt;blockquote&gt;
@@ -508,6 +644,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里首先依然是定位ChatGPT的身份：心理学领域的学者和图书评论 —— 确认领域、确认身份。&lt;/p&gt;
+&lt;p&gt;这样的好处在于首先限定ChatGPT的扩展边界，让他能够在自定的范围内搜集信息。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181754480.png&#34;
 	
 	
@@ -518,6 +657,10 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;通过目录来确认图书主题，是一个非常字的借鉴的思路！&lt;/p&gt;
+&lt;p&gt;这个方法适用于对一些想快输了解内容来判断这本书的主旨但时间可能不太够用的前提下，通过ChatGPT来快速定位书本的核心。&lt;/p&gt;
+&lt;p&gt;但这里需要注意的是，这种方式往往比较适合写作风格相对严谨的书籍，比如教材等，如果不是这样的书，记得角交叉验证。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181754692.png&#34;
 	
 	
@@ -528,6 +671,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个的「&amp;quot;&amp;quot;&amp;quot;」符号凸显出提问者对与机器语言的了解。&lt;/p&gt;
+&lt;p&gt;一般而言，对于提问中所引用的样例或者需求，可以用&amp;quot;&amp;ldquo;&amp;ldquo;来包裹，如果样例中有多个小样本，再在里面用```包裹。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755256.png&#34;
 	
 	
@@ -538,6 +684,22 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里的提问相对高能也相对密集。&lt;/p&gt;
+&lt;p&gt;简单拆解一下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;确认书中的描述对象&lt;/li&gt;
+&lt;li&gt;确认书中的核心概念&lt;/li&gt;
+&lt;li&gt;确认作者的主要观点&lt;/li&gt;
+&lt;li&gt;确认观点的主要论据&lt;/li&gt;
+&lt;li&gt;确认ChatGPT对观点的认知程度&lt;/li&gt;
+&lt;li&gt;确认ChatGPT对观点赞成或者反对的依据&lt;/li&gt;
+&lt;li&gt;确认作者观点的实践场景&lt;/li&gt;
+&lt;li&gt;具体的案例&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这8个问题有借鉴价值。&lt;/p&gt;
+&lt;p&gt;但可能受限于ChatGPT的回复token限制，没法将这么多问题在一个答复中完整呈现，所以如果有必要可以分拆问题。&lt;/p&gt;
+&lt;p&gt;另外就是提问中提到了一个「ChatGPT对观点的认知程度」，这就相当于把ChatGPT物化成了一个活生生的人。但数据背后可能是ChatGPT去寻找支撑或者反对观点的数据，而ChatGPT只是一个「转话筒」。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755575.png&#34;
 	
 	
@@ -548,69 +710,101 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755567.png&#34;
+&lt;p&gt;这个问题运用的太棒了！&lt;/p&gt;
+&lt;p&gt;我突然也想到了一个活用的知识点，就是将《聪明的阅读者》中的重要认知方式引用。&lt;/p&gt;
+&lt;p&gt;但需要注意的是，这里提问者并没有给全认知方式，只是列出了他认为重要的方式。&lt;/p&gt;
+&lt;p&gt;这段话直接设定为「自定义短语」中，比如将其命名为rzfs（认知方式），来快速提醒自己经常采用。&lt;/p&gt;
+&lt;p&gt;同样，提问者用「&amp;rdquo;&amp;quot;&amp;quot;」来包裹样例，是一个好习惯！为提问者点赞！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071805856.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-18_17-52-12&#34;
+		alt=&#34;image-20230607180531797&#34;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755810.png&#34;
+&lt;p&gt;这个问题ChatGPT没有给予正面答复。&lt;/p&gt;
+&lt;p&gt;我突然想到昨天看到有一个国外开发者开发了一个可以提交PDF格式的网站，然后通过对话来了解该PDF书籍的内容。但是我尝试了一下，效果不佳。&lt;/p&gt;
+&lt;p&gt;这种方式可能需要将文本提交ChatGPT之后再问会更好些。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071806984.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
+		alt=&#34;image-20230607180614880&#34;
+	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755167.png&#34;
+&lt;p&gt;这个问题非常棒！&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;提问者进行了两个身份的模拟限定（学生&amp;amp;老师）&lt;/li&gt;
+&lt;li&gt;两个身份的共识约定 —— 理解书中的核心观点&lt;/li&gt;
+&lt;li&gt;问题示范。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;而且这个问题也问的非常接地气「我如何才能运用本书的知识去指导我的生活」。 非常好！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071807440.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-18_17-52-25&#34;
+		alt=&#34;image-20230607180700372&#34;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755701.png&#34;
+&lt;p&gt;这里提问者引入更加明确的话题「早睡早起」。 ChatGPT的回答也很好，尤其是第二点「重新框定」，让提问者从动机角度入手而不是现状入手。&lt;/p&gt;
+&lt;p&gt;换句话说，让提问者去寻找早睡早起的动机源头，这里可以结合德西&amp;amp;瑞安的自我决定论相关知识点展开，比如归属感、自主感等等。&lt;/p&gt;
+&lt;p&gt;也可以读一些与动机相关的心理学辅导的书籍，比如《动机式访谈手册》等等，尝试寻找更多解决问题的思路。这对我来说也极有参考价值！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071808607.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-18_17-52-32&#34;
+		alt=&#34;image-20230607180800532&#34;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755421.png&#34;
+&lt;p&gt;这个提问简直太秒了!&lt;/p&gt;
+&lt;p&gt;让ChatGPT扮演两个角色，而提问者作为旁观者来看待它们的PK，不仅更深入了解了知识点，而且增加了更多趣味性。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071808268.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-18_17-52-39&#34;
+		alt=&#34;image-20230607180830191&#34;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181756162.png&#34;
+&lt;p&gt;这个提问有点类似前面的「思想实验在哪些章节」，根据ChatGPT的回答，我有点怀疑它是否真的读过《改变》这本书的内容章节。&lt;/p&gt;
+&lt;p&gt;所以这个提问与后面的权重章节提问，只能作为参考，还需要提问者自己去作更实际的验证。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071809183.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-18_17-52-49&#34;
+		alt=&#34;image-20230607180907104&#34;
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;参考前一个问题的回答。我觉得这个问题可以稍微缓一缓，而不是马上就问出来。&lt;/p&gt;
+&lt;p&gt;比如我自己判断之后，再通过本章节的对话模式去验证我的判断。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;本轮解析模板修正&#34;&gt;本轮解析模板（修正）&lt;/h3&gt;
 &lt;h4 id=&#34;1&#34;&gt;1&lt;/h4&gt;
 &lt;blockquote&gt;
-&lt;p&gt;你是[心理学]领域的[学者]和[图书评论]，请评论&amp;quot;[Change: Principles of Problem Formation and Problem Resolution]&amp;quot; by [Paul Watzlawick]。  以下是全书目录 &amp;ldquo;&amp;rdquo;&amp;quot;&amp;hellip;&amp;hellip;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;p&gt;你是[心理学]领域的[学者]和[图书评论]，请评论&amp;rdquo;[Change: Principles of Problem Formation and Problem Resolution]&amp;quot; by [Paul Watzlawick]。  以下是全书目录 &amp;ldquo;&amp;rdquo;&amp;quot;&amp;hellip;&amp;hellip;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;2&#34;&gt;2&lt;/h4&gt;
 &lt;blockquote&gt;
@@ -732,6 +926,11 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这是一个很好的借住人工智能来简化抽象知识理解的思路。&lt;/p&gt;
+&lt;p&gt;这次提问的优点：&lt;/p&gt;
+&lt;p&gt;提问者并不是直接问「信息瀑布」是什么意思。而是首先提到前提「我在读一本社会心理学方面的书」，这就首先帮助ChatGPT限定了回答问题的边界。这个做法非常好。&lt;/p&gt;
+&lt;p&gt;如果我们自己在尝试问ChatGPT一些术语的时候，首先我们自己要明白，这个术语源自哪个学科，如果不知道学科，就要缩小规模，寻找它所从属的领域；如果还是无法确认，就要确认它所从属的问题。无论如何都要主动向ChatGPT限定问题的边界。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191302534.png&#34;
 	
 	
@@ -742,6 +941,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这就是典型的「术语卡」撰写权重啊！&lt;/p&gt;
+&lt;p&gt;对于术语卡，我们需要追溯知识源头，找到最早提出这个概念的人、提出的时间、理解、延伸和知识源头。这里提问者强调了术语卡的关键变量，意味着他对术语卡的运用已经内隐了。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191302216.png&#34;
 	
 	
@@ -752,6 +954,13 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里提问者运用了「元反空」的「反」，突出了这个概念的对立面意见。&lt;/p&gt;
+&lt;p&gt;这对于了解一个概念的边界非常有用。 代表性观点是一个简化理解的好问题，如果要进一步探索，可以尝试让ChatGPT列出相关的信息源头链接。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【建议1】&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个「反对意见」我觉得问的太早了点，应该首先对这个概念本身有一定清晰的理解之后，再去了解它的对立面。从这个提问本身来看，提问者提出了这个「反对意见」之后，又回到了概念本身的正题，来理解与他相关的术语，而后又跳到与这个反对意见类似的提问「局限性」上。感觉问题问的有点过于跳跃了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【建议2】&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通过这个信息，还能进一步探索出对这个概念反对意见在学术界最具影响力的反对者，这就进一步回归到了「人」的维度。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191302248.png&#34;
 	
 	
@@ -762,6 +971,10 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这也是一个非常好的问题！&lt;/p&gt;
+&lt;p&gt;我们了解一个概念，并不是把它鼓励的进行拆解、分析，而是要把它与类似的术语进行关联，这样能够更好的说明该术语的典型特征。 从大脑记忆的层面，在术语和术语之间建立相关的连接，能够有效帮助大脑记忆。&lt;/p&gt;
+&lt;p&gt;「社会现象」更是一个将抽象术语与大众所关注的现象进行关联，这样进一步简化了抽象术语的理解。这是一个好问题！&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191303651.png&#34;
 	
 	
@@ -772,6 +985,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题应该是前述「概念的反对意见」中提及的「局限性」展开的。&lt;/p&gt;
+&lt;p&gt;但这个问题与「反对意见」类似，甚至有一些重复了。所以我觉得可以将这两个问题合并。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191303596.png&#34;
 	
 	
@@ -782,6 +998,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题对于阅读英文论文非常有帮助！&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191303459.png&#34;
 	
 	
@@ -792,6 +1010,18 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题与下一个问题可以联合起来看。&lt;/p&gt;
+&lt;p&gt;首先，限定角色定位 —— 「顶级科普作家」， 然后，限定写作风格 —— 中国作家连岳 再次，限定文章要求 —— 1000字左右，科普文章 最后，限定阅读对象 —— 高一学生。&lt;/p&gt;
+&lt;p&gt;下一篇文章，前三个要求类似，但阅读对象有了转变 —— 大学生。&lt;/p&gt;
+&lt;p&gt;将两篇文章用不同的阅读对象让ChatGPT输出，我觉得这里提供了一个非常好的对比机会，&lt;/p&gt;
+&lt;p&gt;提问者可以：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先尝试将这两篇文章进行一次对比，明白对比结果。&lt;/li&gt;
+&lt;li&gt;再让ChatGPT自己对这两篇文章进行对比。然后找出自己和ChatGPT对比的差异，并思考这些差异产生的原因。&lt;/li&gt;
+&lt;li&gt;参考前两点的思路，对文章进行改进优化。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;【&lt;strong&gt;不足&lt;/strong&gt;】&lt;/p&gt;
+&lt;p&gt;我觉得这里对于ChatGPT是否了解连岳的写作风格存疑。 所以可能需要事先投喂一些相关文章，让ChatGPT进行分析、模拟来尝试进一步熟悉连岳的写作风格，然后再让他输出文章，效果可能会更好一些。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191303945.png&#34;
 	
 	
@@ -802,6 +1032,11 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里的「有趣」建议更加明确一些：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;到底是哪些地方有趣？&lt;/li&gt;
+&lt;li&gt;能否提供一些案例或者建议 这样可能会更有效果。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;让ChatGPT解释术语卡的对话优化模板：&lt;/p&gt;
 &lt;h4 id=&#34;1&#34;&gt;1&lt;/h4&gt;
@@ -851,6 +1086,8 @@
 &lt;p&gt;Ref：&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://42share.io/gpt/8727369749&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://42share.io/gpt/8727369749&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F8727369749&amp;amp;group=xoJEwea7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F8727369749&amp;group=xoJEwea7&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -877,6 +1114,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里首先提到了一个特别身份—— 「学者」而不是王阳明本身。&lt;/p&gt;
+&lt;p&gt;换句话说，对王阳明的了解是一个研究、探析出来的身份。所以这里我个人感觉还可以强化一下学者的说明，比如对王阳明深入研究的程度，从阳老师《聪明的阅读者》一书引用强调对王阳明研究的认知方式（田野调查、符号思考等），这样更好的让ChatGPT凸显自身的角色。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191258479.png&#34;
 	
 	
@@ -887,6 +1127,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;看起来这是一句问话，但我感到提问者并不只是在提问，而是帮助ChatGPT更深入的理解王阳明，即通过ChatGPT的记忆提取来帮助他更好地认知王阳明。&lt;/p&gt;
+&lt;p&gt;这个信息的输出，一方面让提问者判断ChatGPT是否真正的理解了王阳明，另一方面，也能够在后续的聊天中让ChatGPT回顾之前（即现在）已经有的回答来更好地提炼优化后续的回答。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191258664.png&#34;
 	
 	
@@ -897,6 +1140,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;WHY的提问&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191258730.png&#34;
 	
 	
@@ -907,6 +1152,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;让ChatGPT对王阳明典型的事件进行回顾与分析&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191259225.png&#34;
 	
 	
@@ -917,6 +1164,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;让ChatGPT对王阳明的金句进行回顾与分析&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191259204.png&#34;
 	
 	
@@ -927,6 +1176,10 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题问的非常好！&lt;/p&gt;
+&lt;p&gt;但我觉得这个问题太泛了一些，人是具体情境下的人。&lt;/p&gt;
+&lt;p&gt;每个人都会不一样，所以如果在问完这个问题之后，再将提问者或者提问者想了解的对象进行更细致的背景说明，然后再让王阳明给予回复的话，会更好一些，也更有针对性。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191259522.png&#34;
 	
 	
@@ -937,6 +1190,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题也非常好！&lt;/p&gt;
+&lt;p&gt;体现出提问者对「知」理解的深度。通过交叉对比，来强化ChatGPT对自己扮演身份的认知。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191259606.png&#34;
 	
 	
@@ -947,6 +1203,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;哈哈哈，一个诱导式陷阱提问！&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191259589.png&#34;
 	
 	
@@ -957,6 +1215,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;前面这个提问是针对王阳明与朱熹的思想进行对比，紧接着开始询问这个思想产生的背景，问题与问题之间产生了关联性。&lt;/p&gt;
+&lt;p&gt;不过我觉得这个问题视乎还可以让ChatGPT列出王阳明的思想与朱熹思想背景的差异对比，这样就更清晰明了。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191259357.png&#34;
 	
 	
@@ -967,6 +1228,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个问题与前述问题的关联不大，而且视乎问的位置不太合理？我觉得它可以和王阳明的金句在一起提问，然后尝试关联这些金句的背景，这样会跟好一些。&lt;/p&gt;
+&lt;p&gt;另外，这个提问对我的另一个重大启发在于，我到现在还没有建立一个固定的角色榜样，来帮助我应对日常的人生走向。而这个提问其实可以帮助我建构1-3个固定的角色来为我的人生惊醒长远与当下的规划，把他当做我的一个贴身老师，来不断激励我更好的前行。&lt;/p&gt;
 &lt;p&gt;Ref：&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://42share.io/gpt/7720275900&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://42share.io/gpt/7720275900&lt;/a&gt;&lt;/p&gt;
@@ -980,66 +1243,44 @@
         <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
         
         <guid>https://Gptlearning.top/p/%E5%AF%B9%E5%BE%AE%E8%BD%AF%E5%85%AC%E5%8F%B8%E7%9A%84%E4%B9%B0%E5%85%A5%E5%88%86%E6%9E%90/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191253904.png&#34;
+        <description>&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071819142.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;image-20230519125336768&#34;
+		alt=&#34;image-20230607181950087&#34;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191253519.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Snipaste_2023-05-19_12-50-43&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191253338.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Snipaste_2023-05-19_12-50-47&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191254920.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Snipaste_2023-05-19_12-50-54&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191254637.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Snipaste_2023-05-19_12-50-59&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191254998.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Snipaste_2023-05-19_12-51-03&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你是巴菲特&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;直接定位具体的人，相对于定位一个身份，更能凸显出这个人的特色。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;非常擅长分析公司&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;列出了这个人所擅长的点，也即开始输出了自己的需求&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;并确定一家公司是否值得买入&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;进一步明确了要求ChatGPT作出的明确判断，简明扼要。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我现在要分析微软（MicroSoft）这家公司，请从以下几个角度入手分析， 基本信息： 商业模式： 竞争优势： 潜在风险&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;明确的分析的对象。&lt;/li&gt;
+&lt;li&gt;明确了分析的要点。 第二点非常重要，体现了提问者的专业性，即提问者大脑中所涵盖的「最小必要知识」。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：竞争优势也叫护城河分析，就是这家公司有哪些别人不具备的优势，从而可以让它一直在竞争中处于优势地位。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;对总要的要求作出了更明确的边界限定。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;请尊重事实和逻辑，任何结论都必须有根据，不能胡编乱造。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;明确了ChatGPT目前版本（4）可能会犯的错误，以及确认了信息的源头性。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191254355.png&#34;
 	
 	
@@ -1050,6 +1291,11 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;对ChatGPT的回答进行自我验证。&lt;/p&gt;
+&lt;p&gt;此外，我觉得这句话还有一个暗含的提问策略，即前述问题可以视为提问者对ChatGPT回答问题是否专业的一个预判。&lt;/p&gt;
+&lt;p&gt;换句话说，前面所提的这个问题并不是提问者最终想了解的答案，而是通过有效的提问向ChatGPT投喂更专业的问题，让他通过回答这个问题来「慢慢转正」。&lt;/p&gt;
+&lt;p&gt;这种做法与常见的直接问问题获得答案的策略不一样，体现了提问者的提问优势。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191254614.png&#34;
 	
 	
@@ -1060,6 +1306,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;提问者根据ChatGPT的回答，指向了另外一个对象，并要求他去扮演这个角色，来分析之前分析的这家公司，相当与对分析公司（微软）有了更细致、更专业的维度了解。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191254814.png&#34;
 	
 	
@@ -1070,6 +1318,14 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个提问同样巧妙。&lt;/p&gt;
+&lt;p&gt;提问者向ChatGPT引出了更多优质的同行（擅长高科技公司投资），并要求其给到具体的人名。&lt;/p&gt;
+&lt;p&gt;两个清晰的标准也非常简练：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;长期业绩稳健&lt;/li&gt;
+&lt;li&gt;大幅超越指数表现。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191255999.png&#34;
 	
 	
@@ -1080,6 +1336,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;提问者根据ChatGPT的回答，指向了另外一个对象，并要求他去扮演这个角色，来分析之前分析的这家公司，相当与对分析公司（微软）有了更细致、更专业的维度了解。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191255089.png&#34;
 	
 	
@@ -1090,6 +1348,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;再次以ChatGPT列出的人名进行身份模拟和交叉验证。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191255810.png&#34;
 	
 	
@@ -1100,6 +1360,8 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;通过对ChatGPT的逐步引导，让ChatGPT逐步回答出了高质量的问题，但这些问题还需要提问者自己的亲身验证，这意味着需要更加可靠的信息源，所以这里提问者进一步向ChatGPT提出了研究资料的渠道，并明确了标准（高质量的信息源）&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191255475.png&#34;
 	
 	
@@ -1110,6 +1372,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里体现出提问者对ChatGPT回答问题的判断 —— ChatGPT所列出来的回答并不是提问者所需要的。&lt;/p&gt;
+&lt;p&gt;换句话说，对于ChatGPT的回答，提问者必须保持独立思考的习性，这样才能让科技真正为自己服务，而不是简单的提问 - 获得答案 - 使用这样的单线程思维和行动模式。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305191255065.png&#34;
 	
 	
@@ -1120,8 +1385,20 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;Ref：&lt;a class=&#34;link&#34; href=&#34;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F1537767721&amp;amp;group=__world__&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;分析链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这里体现出了提问者希望通过具体的亲身实践来获得更加鲜活的信息来源。所以对ChatGPT提出了「实地调研」的问题引导。&lt;/p&gt;
+&lt;p&gt;综合来看，这篇提问的问题引导有诸多亮点，比如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在提问之前有相对专业的最小必要知识&lt;/li&gt;
+&lt;li&gt;对ChatGPT先试探，后强化&lt;/li&gt;
+&lt;li&gt;以固定角色的人为核心引导而不是泛泛指导&lt;/li&gt;
+&lt;li&gt;保持对ChatGPT回答问题判断的敏感度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些提问技巧值得学习与实践。&lt;/p&gt;
+&lt;p&gt;Ref：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://42share.io/gpt/1537767721&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://42share.io/gpt/1537767721&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F1537767721&amp;amp;group=__world&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F1537767721&amp;group=__world&lt;/a&gt;__&lt;/p&gt;
 &lt;p&gt;20230505&lt;/p&gt;
 </description>
         </item>

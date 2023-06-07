@@ -23,6 +23,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里首先依然是定位ChatGPT的身份：心理学领域的学者和图书评论 —— 确认领域、确认身份。&lt;/p&gt;
+&lt;p&gt;这样的好处在于首先限定ChatGPT的扩展边界，让他能够在自定的范围内搜集信息。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181754480.png&#34;
 	
 	
@@ -33,6 +36,10 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;通过目录来确认图书主题，是一个非常字的借鉴的思路！&lt;/p&gt;
+&lt;p&gt;这个方法适用于对一些想快输了解内容来判断这本书的主旨但时间可能不太够用的前提下，通过ChatGPT来快速定位书本的核心。&lt;/p&gt;
+&lt;p&gt;但这里需要注意的是，这种方式往往比较适合写作风格相对严谨的书籍，比如教材等，如果不是这样的书，记得角交叉验证。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181754692.png&#34;
 	
 	
@@ -43,6 +50,9 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这个的「&amp;quot;&amp;quot;&amp;quot;」符号凸显出提问者对与机器语言的了解。&lt;/p&gt;
+&lt;p&gt;一般而言，对于提问中所引用的样例或者需求，可以用&amp;quot;&amp;ldquo;&amp;ldquo;来包裹，如果样例中有多个小样本，再在里面用```包裹。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755256.png&#34;
 	
 	
@@ -53,6 +63,22 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;这里的提问相对高能也相对密集。&lt;/p&gt;
+&lt;p&gt;简单拆解一下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;确认书中的描述对象&lt;/li&gt;
+&lt;li&gt;确认书中的核心概念&lt;/li&gt;
+&lt;li&gt;确认作者的主要观点&lt;/li&gt;
+&lt;li&gt;确认观点的主要论据&lt;/li&gt;
+&lt;li&gt;确认ChatGPT对观点的认知程度&lt;/li&gt;
+&lt;li&gt;确认ChatGPT对观点赞成或者反对的依据&lt;/li&gt;
+&lt;li&gt;确认作者观点的实践场景&lt;/li&gt;
+&lt;li&gt;具体的案例&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这8个问题有借鉴价值。&lt;/p&gt;
+&lt;p&gt;但可能受限于ChatGPT的回复token限制，没法将这么多问题在一个答复中完整呈现，所以如果有必要可以分拆问题。&lt;/p&gt;
+&lt;p&gt;另外就是提问中提到了一个「ChatGPT对观点的认知程度」，这就相当于把ChatGPT物化成了一个活生生的人。但数据背后可能是ChatGPT去寻找支撑或者反对观点的数据，而ChatGPT只是一个「转话筒」。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755575.png&#34;
 	
 	
@@ -63,69 +89,101 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755567.png&#34;
+&lt;p&gt;这个问题运用的太棒了！&lt;/p&gt;
+&lt;p&gt;我突然也想到了一个活用的知识点，就是将《聪明的阅读者》中的重要认知方式引用。&lt;/p&gt;
+&lt;p&gt;但需要注意的是，这里提问者并没有给全认知方式，只是列出了他认为重要的方式。&lt;/p&gt;
+&lt;p&gt;这段话直接设定为「自定义短语」中，比如将其命名为rzfs（认知方式），来快速提醒自己经常采用。&lt;/p&gt;
+&lt;p&gt;同样，提问者用「&amp;rdquo;&amp;quot;&amp;quot;」来包裹样例，是一个好习惯！为提问者点赞！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071805856.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-18_17-52-12&#34;
+		alt=&#34;image-20230607180531797&#34;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755810.png&#34;
+&lt;p&gt;这个问题ChatGPT没有给予正面答复。&lt;/p&gt;
+&lt;p&gt;我突然想到昨天看到有一个国外开发者开发了一个可以提交PDF格式的网站，然后通过对话来了解该PDF书籍的内容。但是我尝试了一下，效果不佳。&lt;/p&gt;
+&lt;p&gt;这种方式可能需要将文本提交ChatGPT之后再问会更好些。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071806984.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
+		alt=&#34;image-20230607180614880&#34;
+	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755167.png&#34;
+&lt;p&gt;这个问题非常棒！&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;提问者进行了两个身份的模拟限定（学生&amp;amp;老师）&lt;/li&gt;
+&lt;li&gt;两个身份的共识约定 —— 理解书中的核心观点&lt;/li&gt;
+&lt;li&gt;问题示范。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;而且这个问题也问的非常接地气「我如何才能运用本书的知识去指导我的生活」。 非常好！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071807440.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-18_17-52-25&#34;
+		alt=&#34;image-20230607180700372&#34;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755701.png&#34;
+&lt;p&gt;这里提问者引入更加明确的话题「早睡早起」。 ChatGPT的回答也很好，尤其是第二点「重新框定」，让提问者从动机角度入手而不是现状入手。&lt;/p&gt;
+&lt;p&gt;换句话说，让提问者去寻找早睡早起的动机源头，这里可以结合德西&amp;amp;瑞安的自我决定论相关知识点展开，比如归属感、自主感等等。&lt;/p&gt;
+&lt;p&gt;也可以读一些与动机相关的心理学辅导的书籍，比如《动机式访谈手册》等等，尝试寻找更多解决问题的思路。这对我来说也极有参考价值！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071808607.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-18_17-52-32&#34;
+		alt=&#34;image-20230607180800532&#34;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181755421.png&#34;
+&lt;p&gt;这个提问简直太秒了!&lt;/p&gt;
+&lt;p&gt;让ChatGPT扮演两个角色，而提问者作为旁观者来看待它们的PK，不仅更深入了解了知识点，而且增加了更多趣味性。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071808268.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-18_17-52-39&#34;
+		alt=&#34;image-20230607180830191&#34;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305181756162.png&#34;
+&lt;p&gt;这个提问有点类似前面的「思想实验在哪些章节」，根据ChatGPT的回答，我有点怀疑它是否真的读过《改变》这本书的内容章节。&lt;/p&gt;
+&lt;p&gt;所以这个提问与后面的权重章节提问，只能作为参考，还需要提问者自己去作更实际的验证。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306071809183.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2023-05-18_17-52-49&#34;
+		alt=&#34;image-20230607180907104&#34;
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;参考前一个问题的回答。我觉得这个问题可以稍微缓一缓，而不是马上就问出来。&lt;/p&gt;
+&lt;p&gt;比如我自己判断之后，再通过本章节的对话模式去验证我的判断。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;本轮解析模板修正&#34;&gt;本轮解析模板（修正）&lt;/h3&gt;
 &lt;h4 id=&#34;1&#34;&gt;1&lt;/h4&gt;
 &lt;blockquote&gt;
-&lt;p&gt;你是[心理学]领域的[学者]和[图书评论]，请评论&amp;quot;[Change: Principles of Problem Formation and Problem Resolution]&amp;quot; by [Paul Watzlawick]。  以下是全书目录 &amp;ldquo;&amp;rdquo;&amp;quot;&amp;hellip;&amp;hellip;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;p&gt;你是[心理学]领域的[学者]和[图书评论]，请评论&amp;rdquo;[Change: Principles of Problem Formation and Problem Resolution]&amp;quot; by [Paul Watzlawick]。  以下是全书目录 &amp;ldquo;&amp;rdquo;&amp;quot;&amp;hellip;&amp;hellip;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;2&#34;&gt;2&lt;/h4&gt;
 &lt;blockquote&gt;
