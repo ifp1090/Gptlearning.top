@@ -6,7 +6,191 @@
         <description>Recent content in 提问 on Guyan&#39;s Gptlearning web</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Gptlearning.top/categories/%E6%8F%90%E9%97%AE/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Gptlearning.top/categories/%E6%8F%90%E9%97%AE/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>借ChatGPT巧妙攻读《人工科学》难懂章节</title>
+        <link>https://Gptlearning.top/p/%E5%80%9Fchatgpt%E5%B7%A7%E5%A6%99%E6%94%BB%E8%AF%BB%E4%BA%BA%E5%B7%A5%E7%A7%91%E5%AD%A6%E9%9A%BE%E6%87%82%E7%AB%A0%E8%8A%82/</link>
+        <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://Gptlearning.top/p/%E5%80%9Fchatgpt%E5%B7%A7%E5%A6%99%E6%94%BB%E8%AF%BB%E4%BA%BA%E5%B7%A5%E7%A7%91%E5%AD%A6%E9%9A%BE%E6%87%82%E7%AB%A0%E8%8A%82/</guid>
+        <description>&lt;p&gt;今天分享一个用ChatGPT读难书的记录。&lt;/p&gt;
+&lt;p&gt;赫伯特·西蒙的《人工智能》第五章里的一段话：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161337532.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616133758499&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这段话我读了几遍后觉得 ≈ 天书！&lt;/p&gt;
+&lt;p&gt;为什么会有这样的感觉？&lt;/p&gt;
+&lt;p&gt;从认知脑科学角度看，学习的本质是通过&lt;strong&gt;大脑神经元之间更加高效的处理过程完成&lt;/strong&gt;的。上述这一段我之所以觉得一脸懵，其实在于我的大脑中没有多少用来表征这个段落的先行知识。所以就出现了「每个字我都认识，但连起来不知道西蒙在说什么」的困惑。从反面来看，这一段落体现了西蒙大脑中有大量复杂的概念以及这些概念的组合。&lt;/p&gt;
+&lt;p&gt;怎么办？&lt;/p&gt;
+&lt;p&gt;我尝试用ChatGPT来帮我读懂它。&lt;/p&gt;
+&lt;p&gt;首先我让ChatGPT扮演这本书的作者西蒙，并给它上面这段话所属的章节的电子版链接，让它先阅读同时准备好回答我的提问：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161344508.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616134436488&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ChatGPT自动读取并总结了这一章的主要内容：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161344599.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616134451571&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;但这并不是我想要的答案，我需要的是刚刚那一段文章，尤其是其中图示的理解。我于是让它专注于那段话的细节，让它解释给我听：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161345358.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616134541321&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ChatGPT现在给到了我一个还算可以听得懂的回答：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161345962.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616134554942&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;从GPT的回答可以发现，它通过举实例的方式「想象一下，你是一个小学生，你的妈妈希望你每天都能吃到营养均衡的食物&amp;hellip;&amp;hellip;」来呈现「命令变量」和「环境参数」这两个复杂的术语：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;命令变量：可以通过人为自主性选择的事物。&lt;/li&gt;
+&lt;li&gt;环境参数：选择事物所拥有的自身特质。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这样就相对比较容易理解了，不过我个人觉得「命令变量」翻译成「指令变量」似乎更好一些，因为这样体现了人为的选择能动性特征。&lt;/p&gt;
+&lt;p&gt;但是，这个回答依然太粗糙了！&lt;/p&gt;
+&lt;p&gt;因为上面那张图里面有「命令变量」、「固定参量」、「约束条件」、「效用函数」这些深奥术语，还有「手段」、「法则」、「约束条件表征了内部环境，参量表征了外部环境」等等这些天书描述。上述回答并没有涉及，所以整段话理解起来依然有较大难度。&lt;/p&gt;
+&lt;p&gt;于是我干脆让它全部结合起来给我解释：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161351481.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616135151455&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;我用分门别类的方式阐述了原文的重点，并要求GPT用小学生的语言向我解释，这样就能大大降低GPT回复内容的理解难度。&lt;/p&gt;
+&lt;p&gt;GPT如下回答：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161353118.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616135321090&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这一回ChatGPT的回答可以打85~90分了！&lt;/p&gt;
+&lt;p&gt;可以看到，GPT将我指定的「命令变量」、「固定参量」、「约束条件」、「效用函数」这些复杂术语分别进行了举例，相比原文天书级别理解就容易多了。但我想让GPT进一步用图表的方式帮我呈现出来，这样看起来会更容易一些：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161653347.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616165343308&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;GPT表示它做不到，不过它依然用心呈现了一个简要的版本与图示化的方法论：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161653447.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616165358418&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;根据GPT的提示，我将原文图示简化如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161651582.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616165128549&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;对比一下：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pbox.online/202306161657197.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230616165705132&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;到这里，我再次回看上面书中的原文和图表，我终于可以明白西蒙到底想说什么了 —— 西蒙通过这个范式给到了我一个最小思考结构：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;目标&lt;/th&gt;
+&lt;th&gt;选择&lt;/th&gt;
+&lt;th&gt;原理&lt;/th&gt;
+&lt;th&gt;限制&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;我想达到怎样的目的&lt;/td&gt;
+&lt;td&gt;为了达成目的我有哪些选择&lt;/td&gt;
+&lt;td&gt;我可以利用的原理&lt;/td&gt;
+&lt;td&gt;我受到的限制&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;简单来说，为了达成自己的目标：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我们需要明白自己的需求到底是什么？&lt;/li&gt;
+&lt;li&gt;在这个需求下我有哪些能动选择？&lt;/li&gt;
+&lt;li&gt;这些选择涉及到的原理有哪些？&lt;/li&gt;
+&lt;li&gt;我达成目标收到的限定有哪些？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;换句话说，用这几个概念的组合来思考问题，就不会出现太大的纰漏。&lt;/p&gt;
+&lt;p&gt;那么下一步问题来了 —— 西蒙在这一章里面通过这个范式想传达什么理念呢？与这一章的主题「设计科学」的关系在哪里？这就涉及到抽样阅读的提出假设、验证假设与修正假设了。后面再详细展开。&lt;/p&gt;
+&lt;p&gt;Ref：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;《人工智能》 赫伯特 · 西蒙&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GPT4插件 - WebPilot&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
+&lt;p&gt;20230616 17:05&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>如何从0到1选择并阅读《社会科学中的场论》？</title>
         <link>https://Gptlearning.top/p/%E5%A6%82%E4%BD%95%E4%BB%8E0%E5%88%B01%E9%80%89%E6%8B%A9%E5%B9%B6%E9%98%85%E8%AF%BB%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%9C%BA%E8%AE%BA/</link>
         <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
@@ -74,7 +258,7 @@
 &lt;/ol&gt;
 &lt;p&gt;但这里还存在一个遗憾，就是提问者没有对GPT给到的分类进行解读，而是直接就调到了下一个问题。 比如这里可以追问GPT：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;你给到的物种分类背后是基于什么原理？&lt;/li&gt;
+&lt;li&gt;你给到的五种分类背后是基于什么原理？&lt;/li&gt;
 &lt;li&gt;「社会理论」与「社会建构与理解」之间的差异是什么？&lt;/li&gt;
 &lt;li&gt;除了这五种分类之外，还有哪些更好的分类思路？&lt;/li&gt;
 &lt;li&gt;五种分类似乎有点多了，能不能压缩到4种？ …… 类如这样的提问，能让GPT更好的审视它进行的分类原则与标准，进而进行优化。&lt;/li&gt;

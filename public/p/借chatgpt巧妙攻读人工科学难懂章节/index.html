@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='ChatGPT非常核心的功能之一就是文本总结。常识认为，对一段文本进行总结或提炼只有相对稳定的一个维度 —— 是否精准。比如扔给ChatGPT一'>
-<title>ChatGPT文本总结的差异化实现</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='今天分享一个用ChatGPT读难书的记录。 赫伯特·西蒙的《人工智能》第五章里的一段话： 这段话我读了几遍后觉得 ≈ 天书！ 为什么会有这样的感觉？ 从'>
+<title>借ChatGPT巧妙攻读《人工科学》难懂章节</title>
 
-<link rel='canonical' href='https://Gptlearning.top/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/'>
+<link rel='canonical' href='https://Gptlearning.top/p/%E5%80%9Fchatgpt%E5%B7%A7%E5%A6%99%E6%94%BB%E8%AF%BB%E4%BA%BA%E5%B7%A5%E7%A7%91%E5%AD%A6%E9%9A%BE%E6%87%82%E7%AB%A0%E8%8A%82/'>
 
-<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" /><meta property='og:title' content='ChatGPT文本总结的差异化实现'>
-<meta property='og:description' content='ChatGPT非常核心的功能之一就是文本总结。常识认为，对一段文本进行总结或提炼只有相对稳定的一个维度 —— 是否精准。比如扔给ChatGPT一'>
-<meta property='og:url' content='https://Gptlearning.top/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/'>
+<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" /><meta property='og:title' content='借ChatGPT巧妙攻读《人工科学》难懂章节'>
+<meta property='og:description' content='今天分享一个用ChatGPT读难书的记录。 赫伯特·西蒙的《人工智能》第五章里的一段话： 这段话我读了几遍后觉得 ≈ 天书！ 为什么会有这样的感觉？ 从'>
+<meta property='og:url' content='https://Gptlearning.top/p/%E5%80%9Fchatgpt%E5%B7%A7%E5%A6%99%E6%94%BB%E8%AF%BB%E4%BA%BA%E5%B7%A5%E7%A7%91%E5%AD%A6%E9%9A%BE%E6%87%82%E7%AB%A0%E8%8A%82/'>
 <meta property='og:site_name' content='Guyan&#39;s Gptlearning web'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='文本总结' /><meta property='article:published_time' content='2023-05-19T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-05-19T00:00:00&#43;00:00'/><meta property='og:image' content='https://Gptlearning.top/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/ChatGPT20230519.png' />
-<meta name="twitter:title" content="ChatGPT文本总结的差异化实现">
-<meta name="twitter:description" content="ChatGPT非常核心的功能之一就是文本总结。常识认为，对一段文本进行总结或提炼只有相对稳定的一个维度 —— 是否精准。比如扔给ChatGPT一"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://Gptlearning.top/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/ChatGPT20230519.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='阅读' /><meta property='article:published_time' content='2023-06-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-06-16T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="借ChatGPT巧妙攻读《人工科学》难懂章节">
+<meta name="twitter:description" content="今天分享一个用ChatGPT读难书的记录。 赫伯特·西蒙的《人工智能》第五章里的一段话： 这段话我读了几遍后觉得 ≈ 天书！ 为什么会有这样的感觉？ 从">
     <link rel="shortcut icon" href="/favicon.ico" />
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-68NTD7RB5S"></script>
@@ -260,20 +259,8 @@ if (!doNotTrack) {
 </aside>
 
             <main class="main full-width">
-    <article class="has-image main-article">
+    <article class="main-article">
     <header class="article-header">
-        <div class="article-image">
-            <a href="/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/">
-                <img src="/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/ChatGPT20230519_hu899d260968faa471f0e189edf2d960b5_328277_800x0_resize_box_3.png"
-                        srcset="/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/ChatGPT20230519_hu899d260968faa471f0e189edf2d960b5_328277_800x0_resize_box_3.png 800w, /p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/ChatGPT20230519_hu899d260968faa471f0e189edf2d960b5_328277_1600x0_resize_box_3.png 1600w"
-                        width="800" 
-                        height="243" 
-                        loading="lazy"
-                        alt="Featured image of post ChatGPT文本总结的差异化实现" />
-                
-            </a>
-        </div>
-    
 
     <div class="article-details">
     
@@ -288,7 +275,7 @@ if (!doNotTrack) {
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/">ChatGPT文本总结的差异化实现</a>
+            <a href="/p/%E5%80%9Fchatgpt%E5%B7%A7%E5%A6%99%E6%94%BB%E8%AF%BB%E4%BA%BA%E5%B7%A5%E7%A7%91%E5%AD%A6%E9%9A%BE%E6%87%82%E7%AB%A0%E8%8A%82/">借ChatGPT巧妙攻读《人工科学》难懂章节</a>
         </h2>
     
         
@@ -310,7 +297,7 @@ if (!doNotTrack) {
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">May 19, 2023</time>
+                <time class="article-time--published">Jun 16, 2023</time>
             </div>
         
 
@@ -325,7 +312,7 @@ if (!doNotTrack) {
 
 
                 <time class="article-time--reading">
-                    阅读时长: 2 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -339,32 +326,182 @@ if (!doNotTrack) {
     <section class="article-content">
     
     
-    <p>ChatGPT非常核心的功能之一就是文本总结。常识认为，对一段文本进行总结或提炼只有相对稳定的一个维度 —— 是否精准。比如扔给ChatGPT一篇文章，让他提炼这篇文章的主要内容，还可能增加一个限定（比如100字以内），那么这时候ChatGPT会回复我们一个100字左右的文本总结。这时候我们可能要去人工验证一下总结的精准度，尝试几遍后发现，总结能力还不错！（ChatGPT 4）</p>
-<p>于是这时候就对ChatGPT形成了一个认识：</p>
-<blockquote>
-<p>ChatGPT的文本总结能力挺好的，以后看一些长篇小说或者科研论文，就可以直接把内容扔给它，让其帮我们总结提炼文本即可，这样就替我们节省了大量阅读原文带来的时间成本。</p>
-</blockquote>
-<p>这个判断是对的，但是只对了一半。</p>
-<p>为什么？</p>
-<p>在实际运用文本总结的场合，其实存在着使用人对文本提炼的不同需求。比如一个食品公司上线了一款新品，一段时间后从平台收集到了210个用户对该产品的客户评价（假设每篇评价约300字），公司希望通过这些反馈来评估产品的市场竞争力。</p>
-<p>那么这时候，仅对于这210份评价进行提炼总结就不能明确判断不同的需求，比如：</p>
+    <p>今天分享一个用ChatGPT读难书的记录。</p>
+<p>赫伯特·西蒙的《人工智能》第五章里的一段话：</p>
+<p><img src="https://pbox.online/202306161337532.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616133758499"
+	
+	
+></p>
+<p>这段话我读了几遍后觉得 ≈ 天书！</p>
+<p>为什么会有这样的感觉？</p>
+<p>从认知脑科学角度看，学习的本质是通过<strong>大脑神经元之间更加高效的处理过程完成</strong>的。上述这一段我之所以觉得一脸懵，其实在于我的大脑中没有多少用来表征这个段落的先行知识。所以就出现了「每个字我都认识，但连起来不知道西蒙在说什么」的困惑。从反面来看，这一段落体现了西蒙大脑中有大量复杂的概念以及这些概念的组合。</p>
+<p>怎么办？</p>
+<p>我尝试用ChatGPT来帮我读懂它。</p>
+<p>首先我让ChatGPT扮演这本书的作者西蒙，并给它上面这段话所属的章节的电子版链接，让它先阅读同时准备好回答我的提问：</p>
+<p><img src="https://pbox.online/202306161344508.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616134436488"
+	
+	
+></p>
+<p>ChatGPT自动读取并总结了这一章的主要内容：</p>
+<p><img src="https://pbox.online/202306161344599.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616134451571"
+	
+	
+></p>
+<p>但这并不是我想要的答案，我需要的是刚刚那一段文章，尤其是其中图示的理解。我于是让它专注于那段话的细节，让它解释给我听：</p>
+<p><img src="https://pbox.online/202306161345358.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616134541321"
+	
+	
+></p>
+<p>ChatGPT现在给到了我一个还算可以听得懂的回答：</p>
+<p><img src="https://pbox.online/202306161345962.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616134554942"
+	
+	
+></p>
+<p>从GPT的回答可以发现，它通过举实例的方式「想象一下，你是一个小学生，你的妈妈希望你每天都能吃到营养均衡的食物&hellip;&hellip;」来呈现「命令变量」和「环境参数」这两个复杂的术语：</p>
 <ul>
-<li>设计部希望获得用户对<code>产品外形</code>的认知</li>
-<li>研发部希望获得用户对<code>产品口味</code>的理解</li>
-<li>客服部希望获得用户对<code>产品服务</code>的反馈</li>
-<li>&hellip;&hellip;</li>
+<li>命令变量：可以通过人为自主性选择的事物。</li>
+<li>环境参数：选择事物所拥有的自身特质。</li>
 </ul>
-<p>这时候，要求ChatGPT对文本的提炼就需要有不同的侧重与要求，而不是单单通过文字「精简提炼」，如果这样将导致遗失更多可供关注的信息。</p>
-<p>以设计部为例，就可以将提问需求调整为：</p>
-<blockquote>
-<p>从以下信息中，提炼与「外形」含义相关的评价语句，整理为表格模式。</p>
-</blockquote>
-<p>客服部可能要求更高：</p>
-<blockquote>
-<p>请帮我判断，以下信息反映出客户对产品的情绪方向是怎样的？肯定还是否定？抱怨还是冷漠？</p>
-</blockquote>
-<p>客服部的要求还增加了ChatGPT对文本提炼后对温度的判断，而这也是ChatGPT可以实现的需求。</p>
-<p>综上，对与ChatGPT的文本总结功能，并不是单单的纯粹文本的算法总结，还可以通过改变提示，让它专注于某些特定的内容，在你想要获得的特征上。</p>
+<p>这样就相对比较容易理解了，不过我个人觉得「命令变量」翻译成「指令变量」似乎更好一些，因为这样体现了人为的选择能动性特征。</p>
+<p>但是，这个回答依然太粗糙了！</p>
+<p>因为上面那张图里面有「命令变量」、「固定参量」、「约束条件」、「效用函数」这些深奥术语，还有「手段」、「法则」、「约束条件表征了内部环境，参量表征了外部环境」等等这些天书描述。上述回答并没有涉及，所以整段话理解起来依然有较大难度。</p>
+<p>于是我干脆让它全部结合起来给我解释：</p>
+<p><img src="https://pbox.online/202306161351481.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616135151455"
+	
+	
+></p>
+<p>我用分门别类的方式阐述了原文的重点，并要求GPT用小学生的语言向我解释，这样就能大大降低GPT回复内容的理解难度。</p>
+<p>GPT如下回答：</p>
+<p><img src="https://pbox.online/202306161353118.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616135321090"
+	
+	
+></p>
+<p>这一回ChatGPT的回答可以打85~90分了！</p>
+<p>可以看到，GPT将我指定的「命令变量」、「固定参量」、「约束条件」、「效用函数」这些复杂术语分别进行了举例，相比原文天书级别理解就容易多了。但我想让GPT进一步用图表的方式帮我呈现出来，这样看起来会更容易一些：</p>
+<p><img src="https://pbox.online/202306161653347.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616165343308"
+	
+	
+></p>
+<p>GPT表示它做不到，不过它依然用心呈现了一个简要的版本与图示化的方法论：</p>
+<p><img src="https://pbox.online/202306161653447.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616165358418"
+	
+	
+></p>
+<p>根据GPT的提示，我将原文图示简化如下：</p>
+<p><img src="https://pbox.online/202306161651582.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616165128549"
+	
+	
+></p>
+<p>对比一下：</p>
+<p><img src="https://pbox.online/202306161657197.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616165705132"
+	
+	
+></p>
+<p>到这里，我再次回看上面书中的原文和图表，我终于可以明白西蒙到底想说什么了 —— 西蒙通过这个范式给到了我一个最小思考结构：</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>目标</th>
+<th>选择</th>
+<th>原理</th>
+<th>限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>我想达到怎样的目的</td>
+<td>为了达成目的我有哪些选择</td>
+<td>我可以利用的原理</td>
+<td>我受到的限制</td>
+</tr>
+</tbody>
+</table></div>
+<p>简单来说，为了达成自己的目标：</p>
+<ul>
+<li>我们需要明白自己的需求到底是什么？</li>
+<li>在这个需求下我有哪些能动选择？</li>
+<li>这些选择涉及到的原理有哪些？</li>
+<li>我达成目标收到的限定有哪些？</li>
+</ul>
+<p>换句话说，用这几个概念的组合来思考问题，就不会出现太大的纰漏。</p>
+<p>那么下一步问题来了 —— 西蒙在这一章里面通过这个范式想传达什么理念呢？与这一章的主题「设计科学」的关系在哪里？这就涉及到抽样阅读的提出假设、验证假设与修正假设了。后面再详细展开。</p>
+<p>Ref：</p>
+<ul>
+<li>
+<p>《人工智能》 赫伯特 · 西蒙</p>
+</li>
+<li>
+<p>GPT4插件 - WebPilot</p>
+</li>
+</ul>
+<h2 id="changelog">Changelog</h2>
+<p>20230616 17:05</p>
 
 </section>
 
@@ -373,7 +510,7 @@ if (!doNotTrack) {
     
     <section class="article-tags">
         
-            <a href="/tags/%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93/">文本总结</a>
+            <a href="/tags/%E9%98%85%E8%AF%BB/">阅读</a>
         
     </section>
 
@@ -404,19 +541,6 @@ if (!doNotTrack) {
     <h2 class="section-title">相关文章</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
-            
-                
-<article class="">
-    <a href="/p/%E5%80%9Fchatgpt%E5%B7%A7%E5%A6%99%E6%94%BB%E8%AF%BB%E4%BA%BA%E5%B7%A5%E7%A7%91%E5%AD%A6%E9%9A%BE%E6%87%82%E7%AB%A0%E8%8A%82/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">借ChatGPT巧妙攻读《人工科学》难懂章节</h2>
-        </div>
-    </a>
-</article>
-
             
                 
 <article class="">
@@ -463,6 +587,30 @@ if (!doNotTrack) {
 
         <div class="article-details">
             <h2 class="article-title">如何通过ChatGPT提问来更好了解一本书？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/">
+        
+        
+            <div class="article-image">
+                <img src="/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/ChatGPT20230519.584a13d9553b50ac2ed8ce6a33cf9e68_hu899d260968faa471f0e189edf2d960b5_328277_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ChatGPT文本总结的差异化实现"
+                        
+                        data-hash="md5-WEoT2VU7UKwu2M5qM8&#43;eaA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ChatGPT文本总结的差异化实现</h2>
         </div>
     </a>
 </article>
