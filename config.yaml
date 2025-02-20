@@ -1,13 +1,15 @@
 baseurl: https://Gptlearning.top
 languageCode: zh-cn
 theme: hugo-theme-stack
-paginate: 10
+pagination:
+  pagerSize: 10
+
 title: Guyan's Gptlearning web
 
 languages:
     zh-cn:
         languageName: 中文
-        title: Guyan's Gptlearning web
+        title: 实践AI
         description: 演示说明
         weight: 1
 
@@ -39,7 +41,7 @@ params:
 
     footer:
         since: 2023
-        customText:
+        customText: 
 
     dateFormat:
         published: Jan 02, 2006
@@ -51,7 +53,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: "/favicon.ico"
 
     article:
         math: false
@@ -187,12 +189,12 @@ menu:
     main: []
 
     social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/ifp1090
-          weight: 1
-          params:
-              icon: brand-github
+###        - identifier: github
+###          name: GitHub
+###          url: https://github.com/ifp1090
+###          weight: 1
+###          params:
+###              icon: brand-github
 
         - identifier: bilibili
           name: Bilibili
@@ -201,12 +203,12 @@ menu:
           params:
               icon: bilibili-line
 
-        - identifier: email
-          name: Email
-          url: mailto:norekcn@gmail.com
-          weight: 3
-          params:
-              icon: email              
+ ###       - identifier: email
+ ###         name: Email
+ ###         url: mailto:norekcn@gmail.com
+ ###         weight: 3
+ ###         params:
+ ###             icon: email              
 
 
 

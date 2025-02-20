@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="今天分享一个用ChatGPT读难书的记录。\n赫伯特·西蒙的《人工智能》第五章里的一段话：\n这段话我读了几遍后觉得 ≈ 天书！\n为什么会有这样的感觉？\n从认知脑科学角度看，学习的本质是通过大脑神经元之间更加高效的处理过程完成的。上述这一段我之所以觉得一脸懵，其实在于我的大脑中没有多少用来表征这个段落的先行知识。所以就出现了「每个字我都认识，但连起来不知道西蒙在说什么」的困惑。从反面来看，这一段落体现了西蒙大脑中有大量复杂的概念以及这些概念的组合。\n">
+<title>借ChatGPT巧妙攻读《人工科学》难懂章节</title>
+
+<link rel='canonical' href='http://localhost:1313/p/%E5%80%9Fchatgpt%E5%B7%A7%E5%A6%99%E6%94%BB%E8%AF%BB%E4%BA%BA%E5%B7%A5%E7%A7%91%E5%AD%A6%E9%9A%BE%E6%87%82%E7%AB%A0%E8%8A%82/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="借ChatGPT巧妙攻读《人工科学》难懂章节">
+<meta property='og:description' content="今天分享一个用ChatGPT读难书的记录。\n赫伯特·西蒙的《人工智能》第五章里的一段话：\n这段话我读了几遍后觉得 ≈ 天书！\n为什么会有这样的感觉？\n从认知脑科学角度看，学习的本质是通过大脑神经元之间更加高效的处理过程完成的。上述这一段我之所以觉得一脸懵，其实在于我的大脑中没有多少用来表征这个段落的先行知识。所以就出现了「每个字我都认识，但连起来不知道西蒙在说什么」的困惑。从反面来看，这一段落体现了西蒙大脑中有大量复杂的概念以及这些概念的组合。\n">
+<meta property='og:url' content='http://localhost:1313/p/%E5%80%9Fchatgpt%E5%B7%A7%E5%A6%99%E6%94%BB%E8%AF%BB%E4%BA%BA%E5%B7%A5%E7%A7%91%E5%AD%A6%E9%9A%BE%E6%87%82%E7%AB%A0%E8%8A%82/'>
+<meta property='og:site_name' content='实践AI'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='阅读' /><meta property='article:published_time' content='2023-06-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-06-16T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="借ChatGPT巧妙攻读《人工科学》难懂章节">
+<meta name="twitter:description" content="今天分享一个用ChatGPT读难书的记录。\n赫伯特·西蒙的《人工智能》第五章里的一段话：\n这段话我读了几遍后觉得 ≈ 天书！\n为什么会有这样的感觉？\n从认知脑科学角度看，学习的本质是通过大脑神经元之间更加高效的处理过程完成的。上述这一段我之所以觉得一脸懵，其实在于我的大脑中没有多少用来表征这个段落的先行知识。所以就出现了「每个字我都认识，但连起来不知道西蒙在说什么」的困惑。从反面来看，这一段落体现了西蒙大脑中有大量复杂的概念以及这些概念的组合。\n">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-68NTD7RB5S"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-68NTD7RB5S');
+        }
+      </script>
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                    <figure class="site-avatar">
+                        <a href="/">
+                            <img src="/favicon.ico" width="150" height="150" class="site-logo" loading="lazy" alt="Avatar">
+                        </a>
+                    </figure>
+                    
+                </a>
+                
+                    <span class="emoji">🚀</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">实践AI</a></h1>
+            <h2 class="site-description">让人工智能更好玩</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/24527653'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 14.988281 3.9902344 A 1.0001 1.0001 0 0 0 14.291016 5.7089844 L 20.585938 12.003906 L 9.9726562 12.003906 C 6.6852627 12.003906 3.9941406 14.69203 3.9941406 17.980469 L 3.9941406 37.023438 C 3.9941406 40.310831 6.6842171 43.001953 9.9726562 43.001953 L 13 43.001953 L 13 44.001953 C 13 45.105953 13.897953 46.002953 15.001953 46.001953 C 16.104953 46.001953 17.001953 45.105953 17.001953 44.001953 L 17.001953 43.001953 L 32.988281 43.001953 L 32.988281 44.001953 C 32.988281 45.105953 33.885281 46.001953 34.988281 46.001953 C 36.092281 46.002953 36.988281 45.105953 36.988281 44.001953 L 36.988281 43.001953 L 40.015625 43.001953 C 43.303019 43.001953 45.992187 40.311876 45.992188 37.023438 L 45.992188 17.980469 C 45.992188 14.692272 43.303821 12.003906 40.015625 12.003906 L 29.414062 12.003906 L 35.708984 5.7089844 A 1.001274 1.001274 0 1 0 34.292969 4.2929688 L 26.582031 12.003906 L 23.417969 12.003906 L 15.707031 4.2929688 A 1.0001 1.0001 0 0 0 14.988281 3.9902344 z M 9.9726562 14.003906 L 22.896484 14.003906 A 1.0001 1.0001 0 0 0 23.121094 14.003906 L 26.886719 14.003906 A 1.0001 1.0001 0 0 0 27.095703 14.003906 L 40.015625 14.003906 C 42.221429 14.003906 43.992188 15.774665 43.992188 17.980469 L 43.992188 37.023438 C 43.992188 39.228997 42.220231 41.001953 40.015625 41.001953 L 9.9726562 41.001953 C 7.7670954 41.001953 5.9941406 39.228043 5.9941406 37.023438 L 5.9941406 17.980469 C 5.9941406 15.774908 7.7680498 14.003906 9.9726562 14.003906 z M 20.048828 21.996094 A 1.0001 1.0001 0 0 0 19.685547 22.052734 L 13.685547 24.052734 A 1.0001 1.0001 0 1 0 14.316406 25.949219 L 20.316406 23.949219 A 1.0001 1.0001 0 0 0 20.048828 21.996094 z M 30.019531 21.996094 A 1.0001 1.0001 0 0 0 29.917969 21.998047 A 1.0001 1.0001 0 0 0 29.679688 23.949219 L 35.679688 25.949219 A 1.0001 1.0001 0 1 0 36.3125 24.052734 L 30.3125 22.052734 A 1.0001 1.0001 0 0 0 30.019531 21.996094 z M 30.953125 29.976562 A 1.0001 1.0001 0 0 0 30.033203 30.757812 C 29.884737 31.352197 29.092247 32.001953 27.994141 32.001953 C 26.905547 32.001953 26.119463 31.363968 25.962891 30.777344 A 1.0001 1.0001 0 0 0 24.029297 30.777344 C 23.871274 31.365484 23.082168 32.001953 21.996094 32.001953 C 20.896728 32.001953 20.10745 31.352196 19.958984 30.757812 A 1.0001 1.0001 0 0 0 18.923828 29.988281 A 1.0001 1.0001 0 0 0 18.017578 31.244141 C 18.39227 32.744224 19.818976 33.629517 21.433594 33.835938 A 1.0001 1.0001 0 0 0 21.996094 34.001953 A 1.0001 1.0001 0 0 0 22.556641 33.839844 C 23.55704 33.712852 24.359997 33.27658 24.996094 32.605469 C 25.759502 33.410345 26.75756 34.001953 27.994141 34.001953 C 29.864035 34.001953 31.551122 32.931757 31.972656 31.244141 A 1.0001 1.0001 0 0 0 30.953125 29.976562 z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E6%83%8A%E5%96%9C/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>惊喜</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%8F%90%E9%97%AE/" style="background-color: #2a9d8f; color: #fff;">
+                提问
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E5%80%9Fchatgpt%E5%B7%A7%E5%A6%99%E6%94%BB%E8%AF%BB%E4%BA%BA%E5%B7%A5%E7%A7%91%E5%AD%A6%E9%9A%BE%E6%87%82%E7%AB%A0%E8%8A%82/">借ChatGPT巧妙攻读《人工科学》难懂章节</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jun 16, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>今天分享一个用ChatGPT读难书的记录。</p>
+<p>赫伯特·西蒙的《人工智能》第五章里的一段话：</p>
+<p><img src="https://pbox.online/202306161337532.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616133758499"
+	
+	
+></p>
+<p>这段话我读了几遍后觉得 ≈ 天书！</p>
+<p>为什么会有这样的感觉？</p>
+<p>从认知脑科学角度看，学习的本质是通过<strong>大脑神经元之间更加高效的处理过程完成</strong>的。上述这一段我之所以觉得一脸懵，其实在于我的大脑中没有多少用来表征这个段落的先行知识。所以就出现了「每个字我都认识，但连起来不知道西蒙在说什么」的困惑。从反面来看，这一段落体现了西蒙大脑中有大量复杂的概念以及这些概念的组合。</p>
+<p>怎么办？</p>
+<p>我尝试用ChatGPT来帮我读懂它。</p>
+<p>首先我让ChatGPT扮演这本书的作者西蒙，并给它上面这段话所属的章节的电子版链接，让它先阅读同时准备好回答我的提问：</p>
+<p><img src="https://pbox.online/202306161344508.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616134436488"
+	
+	
+></p>
+<p>ChatGPT自动读取并总结了这一章的主要内容：</p>
+<p><img src="https://pbox.online/202306161344599.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616134451571"
+	
+	
+></p>
+<p>但这并不是我想要的答案，我需要的是刚刚那一段文章，尤其是其中图示的理解。我于是让它专注于那段话的细节，让它解释给我听：</p>
+<p><img src="https://pbox.online/202306161345358.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616134541321"
+	
+	
+></p>
+<p>ChatGPT现在给到了我一个还算可以听得懂的回答：</p>
+<p><img src="https://pbox.online/202306161345962.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616134554942"
+	
+	
+></p>
+<p>从GPT的回答可以发现，它通过举实例的方式「想象一下，你是一个小学生，你的妈妈希望你每天都能吃到营养均衡的食物&hellip;&hellip;」来呈现「命令变量」和「环境参数」这两个复杂的术语：</p>
+<ul>
+<li>命令变量：可以通过人为自主性选择的事物。</li>
+<li>环境参数：选择事物所拥有的自身特质。</li>
+</ul>
+<p>这样就相对比较容易理解了，不过我个人觉得「命令变量」翻译成「指令变量」似乎更好一些，因为这样体现了人为的选择能动性特征。</p>
+<p>但是，这个回答依然太粗糙了！</p>
+<p>因为上面那张图里面有「命令变量」、「固定参量」、「约束条件」、「效用函数」这些深奥术语，还有「手段」、「法则」、「约束条件表征了内部环境，参量表征了外部环境」等等这些天书描述。上述回答并没有涉及，所以整段话理解起来依然有较大难度。</p>
+<p>于是我干脆让它全部结合起来给我解释：</p>
+<p><img src="https://pbox.online/202306161351481.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616135151455"
+	
+	
+></p>
+<p>我用分门别类的方式阐述了原文的重点，并要求GPT用小学生的语言向我解释，这样就能大大降低GPT回复内容的理解难度。</p>
+<p>GPT如下回答：</p>
+<p><img src="https://pbox.online/202306161353118.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616135321090"
+	
+	
+></p>
+<p>这一回ChatGPT的回答可以打85~90分了！</p>
+<p>可以看到，GPT将我指定的「命令变量」、「固定参量」、「约束条件」、「效用函数」这些复杂术语分别进行了举例，相比原文天书级别理解就容易多了。但我想让GPT进一步用图表的方式帮我呈现出来，这样看起来会更容易一些：</p>
+<p><img src="https://pbox.online/202306161653347.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616165343308"
+	
+	
+></p>
+<p>GPT表示它做不到，不过它依然用心呈现了一个简要的版本与图示化的方法论：</p>
+<p><img src="https://pbox.online/202306161653447.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616165358418"
+	
+	
+></p>
+<p>根据GPT的提示，我将原文图示简化如下：</p>
+<p><img src="https://pbox.online/202306161754478.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616175455446"
+	
+	
+></p>
+<p>对比一下：</p>
+<p><img src="https://pbox.online/202306161657197.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20230616165705132"
+	
+	
+></p>
+<p>到这里，我再次回看上面书中的原文和图表，我终于可以明白西蒙到底想说什么了 —— 西蒙通过这个范式给到了我一个最小思考结构：</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>目标</th>
+          <th>选择</th>
+          <th>原理</th>
+          <th>限制</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>我想达到怎样的目的</td>
+          <td>为了达成目的我有哪些选择</td>
+          <td>我可以利用的原理</td>
+          <td>我受到的限制</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>简单来说，为了达成自己的目标：</p>
+<ul>
+<li>我们需要明白自己的需求到底是什么？</li>
+<li>在这个需求下我有哪些能动选择？</li>
+<li>这些选择涉及到的原理有哪些？</li>
+<li>我达成目标收到的限定有哪些？</li>
+</ul>
+<p>换句话说，用这几个概念的组合来思考问题，就不会出现太大的纰漏。</p>
+<p>那么下一步问题来了 —— 西蒙在这一章里面通过这个范式想传达什么理念呢？与这一章的主题「设计科学」的关系在哪里？这就涉及到抽样阅读的提出假设、验证假设与修正假设了。后面再详细展开。</p>
+<p>Ref：</p>
+<ul>
+<li>
+<p>《人工智能》 赫伯特 · 西蒙</p>
+</li>
+<li>
+<p>GPT4插件 - WebPilot</p>
+</li>
+</ul>
+<h2 id="changelog">Changelog
+</h2><p>20230616 17:05</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E9%98%85%E8%AF%BB/">阅读</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>用心输出，作品说话。</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/%E5%A6%82%E4%BD%95%E5%B0%8637%E4%B8%AA%E5%AD%97%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%AF%94%E5%96%BB%E7%90%86%E8%A7%A3%E6%88%90%E5%8A%9F/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何将37个字的抽象比喻理解成功？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E5%A6%82%E4%BD%95%E4%BB%8E0%E5%88%B01%E9%80%89%E6%8B%A9%E5%B9%B6%E9%98%85%E8%AF%BB%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%9C%BA%E8%AE%BA/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何从0到1选择并阅读《社会科学中的场论》？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%96%87%E6%9C%AC%E7%BB%86%E8%AF%BB%E7%AD%96%E7%95%A5%E5%BC%BA%E5%8C%96%E5%AF%B9%E5%8F%99%E4%BA%8B%E7%B1%BB%E6%96%87%E6%9C%AC%E7%9A%84%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%96%87%E6%9C%AC%E7%BB%86%E8%AF%BB%E7%AD%96%E7%95%A5%E5%BC%BA%E5%8C%96%E5%AF%B9%E5%8F%99%E4%BA%8B%E7%B1%BB%E6%96%87%E6%9C%AC%E7%9A%84%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3/Snipaste_2023-05-31_17-24-33.1f430ff15a48d06121293b4d988c1836_hu_60ba5869e29ae54c.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 如何通过文本细读策略强化对叙事类文本的阅读理解？"
+                        
+                        data-hash="md5-H0MP8VpI0GEhKTtNmIwYNg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何通过文本细读策略强化对叙事类文本的阅读理解？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87chatgpt%E6%8F%90%E9%97%AE%E6%9D%A5%E6%9B%B4%E5%A5%BD%E4%BA%86%E8%A7%A3%E4%B8%80%E6%9C%AC%E4%B9%A6/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何通过ChatGPT提问来更好了解一本书？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/">
+        
+        
+            <div class="article-image">
+                <img src="/p/chatgpt%E6%96%87%E6%9C%AC%E6%80%BB%E7%BB%93%E7%9A%84%E5%B7%AE%E5%BC%82%E5%8C%96%E5%AE%9E%E7%8E%B0/ChatGPT20230519.584a13d9553b50ac2ed8ce6a33cf9e68_hu_79d2ae47aad3d01a.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ChatGPT文本总结的差异化实现"
+                        
+                        data-hash="md5-WEoT2VU7UKwu2M5qM8&#43;eaA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ChatGPT文本总结的差异化实现</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://cdn.jsdelivr.net/npm/sticker-heo@2022.7.5/Sticker-100/"],"locale":{"admin":null,"placeholder":null},"pageview":"ture","requiredMeta":["name","email","url"]});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2025 实践AI
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.f5949f512db7e231e0ece5a1aaec20cb79e8a65d549c5803c304370f0f6eec1d.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

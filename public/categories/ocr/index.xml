@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>OCR on 实践AI</title>
+        <link>http://localhost:1313/categories/ocr/</link>
+        <description>Recent content in OCR on 实践AI</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/ocr/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何借助 AI对手术清单进行读取与汇总？</title>
+        <link>http://localhost:1313/p/%E5%A6%82%E4%BD%95%E5%80%9F%E5%8A%A9-ai%E5%AF%B9%E6%89%8B%E6%9C%AF%E6%B8%85%E5%8D%95%E8%BF%9B%E8%A1%8C%E8%AF%BB%E5%8F%96%E4%B8%8E%E6%B1%87%E6%80%BB/</link>
+        <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%A6%82%E4%BD%95%E5%80%9F%E5%8A%A9-ai%E5%AF%B9%E6%89%8B%E6%9C%AF%E6%B8%85%E5%8D%95%E8%BF%9B%E8%A1%8C%E8%AF%BB%E5%8F%96%E4%B8%8E%E6%B1%87%E6%80%BB/</guid>
+        <description>&lt;h2 id=&#34;1&#34;&gt;1
+&lt;/h2&gt;&lt;p&gt;昨天岳父手部受伤需要治疗，一个简单手术，医院密密麻麻提供了 38 个治疗明细，隐隐感到一丝不对。所以想着将这些信息通过一些远程治疗的 App 的专业医师去交叉验证一下。但医院只给到了一个治疗项目显示的机器，并表示在出院之前不提供数据打印服务，所以只能将这些信息逐一拍照：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pbox.online/202502190939831.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20250219上午93937801&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这个表格简单看一下基本上可以理解这样：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pbox.online/202502191000727.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20250219上午100017684&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如果要对这个明细进行手动汇总，会非常繁琐，因为不仅要手动抄写这些信息，还要手动运算。&lt;/p&gt;
+&lt;p&gt;而现在利用 AI 是否可以快速实现呢？&lt;/p&gt;
+&lt;p&gt;我的思路是这样的：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;通过 AI识别上述 20 张照片，完整提取里面的关键信息。&lt;/li&gt;
+&lt;li&gt;将 20 张照片的价格进行一个独立的运算，看看是否能与图示信息一致。&lt;/li&gt;
+&lt;li&gt;将统计信息转换为一个 Excel 表格供我分享。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;2&#34;&gt;2
+&lt;/h2&gt;&lt;p&gt;我首先想到了 DeepSeek，它可是支持同时上传 50 个附件：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pbox.online/202502191004686.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20250219上午100408643&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;可是无论是电脑版还是手机版，上传都失败：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pbox.online/202502191004606.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Microsoft Edge 2025-02-19 上午10.03.11&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;手机版也是：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pbox.online/202502191157162.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20250219上午115716133&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;看来目前DeepSeek 的网络问题与运算机制还未完全解决（20250219）。&lt;/p&gt;
+&lt;p&gt;再来看看那些集成了 DeepSeek 满血版R1 的各种AI 工具，比如米塔搜索、问小白、腾讯元宝都不行，它们的共性问题是每次只支持一张照片，这样无疑太费时了。&lt;/p&gt;
+&lt;p&gt;然后我们看看 Kimi，支持 50 张图片上传的容量，我们看看是否可以完成这个图片的识别与数据统计：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pbox.online/202502191057467.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20250219上午105741430&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;我们试一下它是否能完成这个任务：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.z4a.net/images/2025/02/19/020bce5a1f70233a86.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;020bce5a1f70233a86.gif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;由上可以发现，将 20 张图片进行的统计独立运算的结果与医院的统计差不多。&lt;/p&gt;
+&lt;p&gt;我们再让它将数据转换为 Excel给我，我们发现 Kimi 目前还无法直接实现：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.z4a.net/images/2025/02/19/03.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;03.gif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;那么我们可以看看字节旗下的「豆包」是否可以实现呢？&lt;/p&gt;
+&lt;p&gt;我们发现它每次只支持 10 张图片：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pbox.online/202502191017016.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20250219上午101752970&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;所以我们可能要将原来的照片分两次读取了，我们来看一下豆包是否能完成对这些表格的识别与统计：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.z4a.net/images/2025/02/19/05.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;05.gif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;然后进行两次数据的汇总：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.z4a.net/images/2025/02/19/06.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;06.gif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;我们看看豆包是否可以将这个表格直接生成 Excel 格式：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.z4a.net/images/2025/02/19/7.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;7.gif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;发现目前还实现不了，只能通过手动复制粘贴到 Excel 里面，但相比手动录入无疑方便太多：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pbox.online/202502191155464.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20250219上午115539413&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这下就可以非常快速地用这个表格远程求助了。&lt;/p&gt;
+&lt;h2 id=&#34;3&#34;&gt;3
+&lt;/h2&gt;&lt;p&gt;这次尝试不仅限于 AI 的图文 OCR 识别、逻辑计算和文本生成，更是对 AI 交互运用的探索。我们将不再把 AI 视作单一的工具，而是像搭建乐高积木一样，组合不同的 AI 能力，创造出更丰富、更智能的应用场景。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

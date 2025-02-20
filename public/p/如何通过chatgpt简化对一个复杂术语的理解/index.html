@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="阅读 - 术语 - 文章，从输入到输出，借助ChatGPT实现案例">
+<title>如何通过ChatGPT简化对一个复杂术语的理解？</title>
+
+<link rel='canonical' href='http://localhost:1313/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87chatgpt%E7%AE%80%E5%8C%96%E5%AF%B9%E4%B8%80%E4%B8%AA%E5%A4%8D%E6%9D%82%E6%9C%AF%E8%AF%AD%E7%9A%84%E7%90%86%E8%A7%A3/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="如何通过ChatGPT简化对一个复杂术语的理解？">
+<meta property='og:description' content="阅读 - 术语 - 文章，从输入到输出，借助ChatGPT实现案例">
+<meta property='og:url' content='http://localhost:1313/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87chatgpt%E7%AE%80%E5%8C%96%E5%AF%B9%E4%B8%80%E4%B8%AA%E5%A4%8D%E6%9D%82%E6%9C%AF%E8%AF%AD%E7%9A%84%E7%90%86%E8%A7%A3/'>
+<meta property='og:site_name' content='实践AI'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='术语卡' /><meta property='article:tag' content='文章' /><meta property='article:published_time' content='2023-05-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-05-15T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="如何通过ChatGPT简化对一个复杂术语的理解？">
+<meta name="twitter:description" content="阅读 - 术语 - 文章，从输入到输出，借助ChatGPT实现案例">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-68NTD7RB5S"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-68NTD7RB5S');
+        }
+      </script>
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                    <figure class="site-avatar">
+                        <a href="/">
+                            <img src="/favicon.ico" width="150" height="150" class="site-logo" loading="lazy" alt="Avatar">
+                        </a>
+                    </figure>
+                    
+                </a>
+                
+                    <span class="emoji">🚀</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">实践AI</a></h1>
+            <h2 class="site-description">让人工智能更好玩</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/24527653'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 14.988281 3.9902344 A 1.0001 1.0001 0 0 0 14.291016 5.7089844 L 20.585938 12.003906 L 9.9726562 12.003906 C 6.6852627 12.003906 3.9941406 14.69203 3.9941406 17.980469 L 3.9941406 37.023438 C 3.9941406 40.310831 6.6842171 43.001953 9.9726562 43.001953 L 13 43.001953 L 13 44.001953 C 13 45.105953 13.897953 46.002953 15.001953 46.001953 C 16.104953 46.001953 17.001953 45.105953 17.001953 44.001953 L 17.001953 43.001953 L 32.988281 43.001953 L 32.988281 44.001953 C 32.988281 45.105953 33.885281 46.001953 34.988281 46.001953 C 36.092281 46.002953 36.988281 45.105953 36.988281 44.001953 L 36.988281 43.001953 L 40.015625 43.001953 C 43.303019 43.001953 45.992187 40.311876 45.992188 37.023438 L 45.992188 17.980469 C 45.992188 14.692272 43.303821 12.003906 40.015625 12.003906 L 29.414062 12.003906 L 35.708984 5.7089844 A 1.001274 1.001274 0 1 0 34.292969 4.2929688 L 26.582031 12.003906 L 23.417969 12.003906 L 15.707031 4.2929688 A 1.0001 1.0001 0 0 0 14.988281 3.9902344 z M 9.9726562 14.003906 L 22.896484 14.003906 A 1.0001 1.0001 0 0 0 23.121094 14.003906 L 26.886719 14.003906 A 1.0001 1.0001 0 0 0 27.095703 14.003906 L 40.015625 14.003906 C 42.221429 14.003906 43.992188 15.774665 43.992188 17.980469 L 43.992188 37.023438 C 43.992188 39.228997 42.220231 41.001953 40.015625 41.001953 L 9.9726562 41.001953 C 7.7670954 41.001953 5.9941406 39.228043 5.9941406 37.023438 L 5.9941406 17.980469 C 5.9941406 15.774908 7.7680498 14.003906 9.9726562 14.003906 z M 20.048828 21.996094 A 1.0001 1.0001 0 0 0 19.685547 22.052734 L 13.685547 24.052734 A 1.0001 1.0001 0 1 0 14.316406 25.949219 L 20.316406 23.949219 A 1.0001 1.0001 0 0 0 20.048828 21.996094 z M 30.019531 21.996094 A 1.0001 1.0001 0 0 0 29.917969 21.998047 A 1.0001 1.0001 0 0 0 29.679688 23.949219 L 35.679688 25.949219 A 1.0001 1.0001 0 1 0 36.3125 24.052734 L 30.3125 22.052734 A 1.0001 1.0001 0 0 0 30.019531 21.996094 z M 30.953125 29.976562 A 1.0001 1.0001 0 0 0 30.033203 30.757812 C 29.884737 31.352197 29.092247 32.001953 27.994141 32.001953 C 26.905547 32.001953 26.119463 31.363968 25.962891 30.777344 A 1.0001 1.0001 0 0 0 24.029297 30.777344 C 23.871274 31.365484 23.082168 32.001953 21.996094 32.001953 C 20.896728 32.001953 20.10745 31.352196 19.958984 30.757812 A 1.0001 1.0001 0 0 0 18.923828 29.988281 A 1.0001 1.0001 0 0 0 18.017578 31.244141 C 18.39227 32.744224 19.818976 33.629517 21.433594 33.835938 A 1.0001 1.0001 0 0 0 21.996094 34.001953 A 1.0001 1.0001 0 0 0 22.556641 33.839844 C 23.55704 33.712852 24.359997 33.27658 24.996094 32.605469 C 25.759502 33.410345 26.75756 34.001953 27.994141 34.001953 C 29.864035 34.001953 31.551122 32.931757 31.972656 31.244141 A 1.0001 1.0001 0 0 0 30.953125 29.976562 z"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E6%83%8A%E5%96%9C/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>惊喜</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#1">1</a></li>
+            <li><a href="#2">2</a></li>
+            <li><a href="#3">3</a></li>
+            <li><a href="#4">4</a></li>
+            <li><a href="#5">5</a></li>
+            <li><a href="#6">6</a></li>
+            <li><a href="#7">7</a></li>
+            <li><a href="#8">8</a></li>
+            <li><a href="#9">9</a></li>
+            <li><a href="#10">10</a></li>
+            <li><a href="#11">11</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%8F%90%E9%97%AE/" style="background-color: #2a9d8f; color: #fff;">
+                提问
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87chatgpt%E7%AE%80%E5%8C%96%E5%AF%B9%E4%B8%80%E4%B8%AA%E5%A4%8D%E6%9D%82%E6%9C%AF%E8%AF%AD%E7%9A%84%E7%90%86%E8%A7%A3/">如何通过ChatGPT简化对一个复杂术语的理解？</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            阅读 - 术语 - 文章，从输入到输出，借助ChatGPT实现案例
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">May 15, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><img src="http://pbox.online/202305191302726.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Snipaste_2023-05-19_13-00-45"
+	
+	
+></p>
+<p>这是一个很好的借住人工智能来简化抽象知识理解的思路。</p>
+<p>这次提问的优点：</p>
+<p>提问者并不是直接问「信息瀑布」是什么意思。而是首先提到前提「我在读一本社会心理学方面的书」，这就首先帮助ChatGPT限定了回答问题的边界。这个做法非常好。</p>
+<p>如果我们自己在尝试问ChatGPT一些术语的时候，首先我们自己要明白，这个术语源自哪个学科，如果不知道学科，就要缩小规模，寻找它所从属的领域；如果还是无法确认，就要确认它所从属的问题。无论如何都要主动向ChatGPT限定问题的边界。</p>
+<hr>
+<p><img src="http://pbox.online/202305191302534.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Snipaste_2023-05-19_13-00-58"
+	
+	
+></p>
+<p>这就是典型的「术语卡」撰写权重啊！</p>
+<p>对于术语卡，我们需要追溯知识源头，找到最早提出这个概念的人、提出的时间、理解、延伸和知识源头。这里提问者强调了术语卡的关键变量，意味着他对术语卡的运用已经内隐了。</p>
+<hr>
+<p><img src="http://pbox.online/202305191302216.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Snipaste_2023-05-19_13-01-12"
+	
+	
+></p>
+<p>这里提问者运用了「元反空」的「反」，突出了这个概念的对立面意见。</p>
+<p>这对于了解一个概念的边界非常有用。 代表性观点是一个简化理解的好问题，如果要进一步探索，可以尝试让ChatGPT列出相关的信息源头链接。</p>
+<p><strong>【建议1】</strong></p>
+<p>这个「反对意见」我觉得问的太早了点，应该首先对这个概念本身有一定清晰的理解之后，再去了解它的对立面。从这个提问本身来看，提问者提出了这个「反对意见」之后，又回到了概念本身的正题，来理解与他相关的术语，而后又跳到与这个反对意见类似的提问「局限性」上。感觉问题问的有点过于跳跃了。</p>
+<p><strong>【建议2】</strong></p>
+<p>通过这个信息，还能进一步探索出对这个概念反对意见在学术界最具影响力的反对者，这就进一步回归到了「人」的维度。</p>
+<hr>
+<p><img src="http://pbox.online/202305191302248.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Snipaste_2023-05-19_13-01-23"
+	
+	
+></p>
+<p>这也是一个非常好的问题！</p>
+<p>我们了解一个概念，并不是把它鼓励的进行拆解、分析，而是要把它与类似的术语进行关联，这样能够更好的说明该术语的典型特征。 从大脑记忆的层面，在术语和术语之间建立相关的连接，能够有效帮助大脑记忆。</p>
+<p>「社会现象」更是一个将抽象术语与大众所关注的现象进行关联，这样进一步简化了抽象术语的理解。这是一个好问题！</p>
+<hr>
+<p><img src="http://pbox.online/202305191303651.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Snipaste_2023-05-19_13-01-35"
+	
+	
+></p>
+<p>这个问题应该是前述「概念的反对意见」中提及的「局限性」展开的。</p>
+<p>但这个问题与「反对意见」类似，甚至有一些重复了。所以我觉得可以将这两个问题合并。</p>
+<hr>
+<p><img src="http://pbox.online/202305191303596.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Snipaste_2023-05-19_13-01-50"
+	
+	
+></p>
+<p>这个问题对于阅读英文论文非常有帮助！</p>
+<hr>
+<p><img src="http://pbox.online/202305191303459.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Snipaste_2023-05-19_13-02-06"
+	
+	
+></p>
+<p>这个问题与下一个问题可以联合起来看。</p>
+<p>首先，限定角色定位 —— 「顶级科普作家」， 然后，限定写作风格 —— 中国作家连岳 再次，限定文章要求 —— 1000字左右，科普文章 最后，限定阅读对象 —— 高一学生。</p>
+<p>下一篇文章，前三个要求类似，但阅读对象有了转变 —— 大学生。</p>
+<p>将两篇文章用不同的阅读对象让ChatGPT输出，我觉得这里提供了一个非常好的对比机会，</p>
+<p>提问者可以：</p>
+<ol>
+<li>先尝试将这两篇文章进行一次对比，明白对比结果。</li>
+<li>再让ChatGPT自己对这两篇文章进行对比。然后找出自己和ChatGPT对比的差异，并思考这些差异产生的原因。</li>
+<li>参考前两点的思路，对文章进行改进优化。</li>
+</ol>
+<p>【<strong>不足</strong>】</p>
+<p>我觉得这里对于ChatGPT是否了解连岳的写作风格存疑。 所以可能需要事先投喂一些相关文章，让ChatGPT进行分析、模拟来尝试进一步熟悉连岳的写作风格，然后再让他输出文章，效果可能会更好一些。</p>
+<p><img src="http://pbox.online/202305191303945.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Snipaste_2023-05-19_13-02-16"
+	
+	
+></p>
+<p>这里的「有趣」建议更加明确一些：</p>
+<ul>
+<li>到底是哪些地方有趣？</li>
+<li>能否提供一些案例或者建议 这样可能会更有效果。</li>
+</ul>
+<hr>
+<p>让ChatGPT解释术语卡的对话优化模板：</p>
+<h4 id="1">1
+</h4><blockquote>
+<p>我现在正在阅读一本与【学科/领域/问题】相关的书。其中提到了一个关键概念 —— 【概念】，请帮我简单解释一下这个概念。要求：通俗易懂，附上案例。</p></blockquote>
+<h4 id="2">2
+</h4><blockquote>
+<p>谁最早提出了这个概念？原始出处在哪里？</p></blockquote>
+<h4 id="3">3
+</h4><blockquote>
+<p>与【概念】相关的术语有哪些？【概念】可以用来解释哪些【社会】现象？</p></blockquote>
+<h4 id="4">4
+</h4><blockquote>
+<p>这个概念到目前为止，都有谁向它提出了反对和质疑？ 其中哪些意见获得了更多的【学术界】认可？</p></blockquote>
+<h4 id="5">5
+</h4><blockquote>
+<p>如果你是一名顶级科普作家，你可否简明扼要地归纳一下【作家】的写作风格？</p></blockquote>
+<h4 id="6">6
+</h4><blockquote>
+<p>请你用【作家1】的写作风格，写一篇【数字】左右的科普文章，阅读对象是【对象A】</p></blockquote>
+<h4 id="7">7
+</h4><blockquote>
+<p>请你用【作家1】的写作风格，写一篇【数字】左右的科普文章，阅读对象是【对象B】</p></blockquote>
+<h4 id="8">8
+</h4><blockquote>
+<p>(对比两篇文章的区别，找出差异)</p></blockquote>
+<h4 id="9">9
+</h4><blockquote>
+<p>请你将前面两篇文章对比一下，说说它们在【风格A】、【风格B】、【风格C】上有什么区别？</p></blockquote>
+<h4 id="10">10
+</h4><blockquote>
+<p>(对比自己找出的差异与ChatGPT找出差异的区别，并思考改进的思路)</p></blockquote>
+<h4 id="11">11
+</h4><blockquote>
+<p>请将你刚刚写的两篇文章的【特征1】、【特征2】、【特征3】进行整合，强化【分隔A】、【风格B】，重新输出一篇文章。</p></blockquote>
+<p>Ref：</p>
+<p><a class="link" href="https://42share.io/gpt/8727369749"  target="_blank" rel="noopener"
+    >https://42share.io/gpt/8727369749</a></p>
+<p><a class="link" href="https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F8727369749&amp;group=xoJEwea7"  target="_blank" rel="noopener"
+    >https://hyp.is/go?url=https%3A%2F%2F42share.io%2Fgpt%2F8727369749&group=xoJEwea7</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E6%9C%AF%E8%AF%AD%E5%8D%A1/">术语卡</a>
+        
+            <a href="/tags/%E6%96%87%E7%AB%A0/">文章</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>用心输出，作品说话。</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/%E5%A6%82%E4%BD%95%E5%B0%8637%E4%B8%AA%E5%AD%97%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%AF%94%E5%96%BB%E7%90%86%E8%A7%A3%E6%88%90%E5%8A%9F/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何将37个字的抽象比喻理解成功？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E5%80%9Fchatgpt%E5%B7%A7%E5%A6%99%E6%94%BB%E8%AF%BB%E4%BA%BA%E5%B7%A5%E7%A7%91%E5%AD%A6%E9%9A%BE%E6%87%82%E7%AB%A0%E8%8A%82/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">借ChatGPT巧妙攻读《人工科学》难懂章节</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E5%A6%82%E4%BD%95%E4%BB%8E0%E5%88%B01%E9%80%89%E6%8B%A9%E5%B9%B6%E9%98%85%E8%AF%BB%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%9C%BA%E8%AE%BA/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何从0到1选择并阅读《社会科学中的场论》？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%96%87%E6%9C%AC%E7%BB%86%E8%AF%BB%E7%AD%96%E7%95%A5%E5%BC%BA%E5%8C%96%E5%AF%B9%E5%8F%99%E4%BA%8B%E7%B1%BB%E6%96%87%E6%9C%AC%E7%9A%84%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E6%96%87%E6%9C%AC%E7%BB%86%E8%AF%BB%E7%AD%96%E7%95%A5%E5%BC%BA%E5%8C%96%E5%AF%B9%E5%8F%99%E4%BA%8B%E7%B1%BB%E6%96%87%E6%9C%AC%E7%9A%84%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3/Snipaste_2023-05-31_17-24-33.1f430ff15a48d06121293b4d988c1836_hu_60ba5869e29ae54c.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 如何通过文本细读策略强化对叙事类文本的阅读理解？"
+                        
+                        data-hash="md5-H0MP8VpI0GEhKTtNmIwYNg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何通过文本细读策略强化对叙事类文本的阅读理解？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87chatgpt%E6%8F%90%E9%97%AE%E6%9D%A5%E6%9B%B4%E5%A5%BD%E4%BA%86%E8%A7%A3%E4%B8%80%E6%9C%AC%E4%B9%A6/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何通过ChatGPT提问来更好了解一本书？</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://cdn.jsdelivr.net/npm/sticker-heo@2022.7.5/Sticker-100/"],"locale":{"admin":null,"placeholder":null},"pageview":"ture","requiredMeta":["name","email","url"]});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2025 实践AI
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.f5949f512db7e231e0ece5a1aaec20cb79e8a65d549c5803c304370f0f6eec1d.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

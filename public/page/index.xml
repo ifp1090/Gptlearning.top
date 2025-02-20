@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on 实践AI</title>
+        <link>http://localhost:1313/page/</link>
+        <description>Recent content in Pages on 实践AI</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 12 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>归档</title>
+        <link>http://localhost:1313/archives/</link>
+        <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;p&gt;古严，专注于阅读、成长。&lt;/p&gt;
+&lt;p&gt;在这里，不仅记录点点滴滴的进步，更要以作品说话。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>惊喜</title>
+        <link>http://localhost:1313/%E6%83%8A%E5%96%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/%E6%83%8A%E5%96%9C/</guid>
+        <description>&lt;p&gt;除了对人工智能的学习，还有另外一个技能值得关注，那就是阅读。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为什么不喜欢阅读？&lt;/li&gt;
+&lt;li&gt;为什么难书读不懂？&lt;/li&gt;
+&lt;li&gt;为什么读了记不住？&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些问题，都需要从阅读者、阅读文本以及阅读的情景三个角度出发来理解。&lt;/p&gt;
+&lt;p&gt;这一次，通过 &lt;a class=&#34;link&#34; href=&#34;https://mread.top&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;慢读时间&lt;/strong&gt;&lt;/a&gt; 让我们真正学会阅读。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://pbox.online/202305121109717.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230512110908690&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>http://localhost:1313/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
